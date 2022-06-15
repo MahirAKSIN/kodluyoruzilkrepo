@@ -5,3 +5,10 @@ C:\Users\inspi\OneDrive\Masaüstü\OrderCLI\obj\Debug\OrderCLI.csproj.AssemblyRe
 C:\Users\inspi\OneDrive\Masaüstü\OrderCLI\obj\Debug\OrderCLI.csproj.CoreCompileInputs.cache
 C:\Users\inspi\OneDrive\Masaüstü\OrderCLI\obj\Debug\OrderCLI.exe
 C:\Users\inspi\OneDrive\Masaüstü\OrderCLI\obj\Debug\OrderCLI.pdb
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\OrderCLI\bin\Debug\OrderCLI.exe.config
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\OrderCLI\bin\Debug\OrderCLI.exe
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\OrderCLI\bin\Debug\OrderCLI.pdb
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\OrderCLI\obj\Debug\OrderCLI.csproj.AssemblyReference.cache
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\OrderCLI\obj\Debug\OrderCLI.csproj.CoreCompileInputs.cache
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\OrderCLI\obj\Debug\OrderCLI.exe
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\OrderCLI\obj\Debug\OrderCLI.pdb

@@ -14,21 +14,19 @@ namespace OrderCLI
 
             string password;
             double secim, adet, toplam = 0, hesap = 0;
-
-
+            bool result = true;
+        
             Console.WriteLine("Sifre giriniz:");
             password = Console.ReadLine();
-
             string[] arr = { "11111", "22222", "33333", "44444" };
 
-
-            int[] terms = new int[400];
+            
+           
 
 
             foreach (var tc in arr)
             {
-
-
+                
                 if (password == tc)
                 {
                     Console.WriteLine("**********************************************************************");
@@ -44,92 +42,132 @@ namespace OrderCLI
                     Console.WriteLine("**                             **                                    **");
                     Console.WriteLine("**     4-Pide         - 6.50   **     10-Cay     -2.00 TL            **");
                     Console.WriteLine("**                             **                                    **");
-                    Console.WriteLine("**     5-Corbalar     - 5.50   **     11-Sode    -2.00 TL            **");
+                    Console.WriteLine("**     5-Corbalar     - 5.50   **     11-Soda    -2.00 TL            **");
                     Console.WriteLine("**                             **                                    **");
                     Console.WriteLine("**     6-Salata       - 3.50   **     12-Fanta   -3.00 TL            **");
                     Console.WriteLine("**                             **                                    **");
                     Console.WriteLine("**********************************************************************");
 
-                    for (int i = 0; i < 100; i++)
+                    while (result)
                     {
-                        Console.WriteLine("");
-                        Console.WriteLine("Siparis numarasını giriniz :");
-                        secim = Convert.ToDouble(Console.ReadLine());
-
-                        if (secim == 1)
+                        for (int i = 0; i < 100; i++)
                         {
-                            Console.WriteLine("Kaç porsiyon istersiniz : ");
-                            adet = Convert.ToDouble(Console.ReadLine());
-                            toplam = adet * 7;
-                            hesap = hesap + toplam;
-                            break;
+                            Console.WriteLine("");
+                            Console.WriteLine("Siparis numarasını giriniz :");
+                            secim = Convert.ToDouble(Console.ReadLine());
 
+                            if (secim == 1)
+                            {
+                                Console.WriteLine("Kaç porsiyon Et Döner istersiniz : ");
+                                adet = Convert.ToDouble(Console.ReadLine());
+                                toplam = adet * 7;
+                                hesap = hesap + toplam;
+                                result = false;
+                                break;
+
+                            }
+                            else if (secim == 2)
+                            {
+                                Console.WriteLine("Kaç porsiyon Tavuk Döner istersiniz : ");
+                                adet = Convert.ToDouble(Console.ReadLine());
+                                toplam = adet * 5.00;
+                                hesap = hesap + toplam;
+                                result = false;
+                                break;
+                            }
+                            else if (secim == 3)
+                            {
+                                Console.WriteLine("Kaç porsiyon Kuru/Pilav istersiniz : ");
+                                adet = Convert.ToDouble(Console.ReadLine());
+                                toplam = adet * 8.00;
+                                hesap = hesap + toplam;
+                                result = false;
+                                break;
+                            }
+                            else if (secim == 4)
+                            {
+                                Console.WriteLine("Kaç porsiyon Pide  istersiniz : ");
+                                adet = Convert.ToDouble(Console.ReadLine());
+                                toplam = adet * 6.50;
+                                hesap = hesap + toplam;
+                                break;
+                            }
+                            else if (secim == 5)
+                            {
+                                Console.WriteLine("Kaç porsiyon Corba  istersiniz : ");
+                                adet = Convert.ToDouble(Console.ReadLine());
+                                toplam = adet * 5.50;
+                                hesap = hesap + toplam;
+                                break;
+                            }
+                            else if (secim == 6)
+                            {
+                                Console.WriteLine("Kaç porsiyon Salata  istersiniz : ");
+                                adet = Convert.ToDouble(Console.ReadLine());
+                                toplam = adet * 3.50;
+                                hesap = hesap + toplam;
+                                break;
+                            }
+                            else if (secim == 7)
+                            {
+                                Console.WriteLine("Kaç porsiyon Ayran  istersiniz : ");
+                                adet = Convert.ToDouble(Console.ReadLine());
+                                toplam = adet * 1.00;
+                                hesap = hesap + toplam;
+                                break;
+                            }
+                            else if (secim == 8)
+                            {
+                                Console.WriteLine("Kaç porsiyon Cola  istersiniz : ");
+                                adet = Convert.ToDouble(Console.ReadLine());
+                                toplam = adet * 3.00;
+                                hesap = hesap + toplam;
+                                break;
+                            }
+                            else if (secim == 9)
+                            {
+                                Console.WriteLine("Kaç porsiyon Su  istersiniz : ");
+                                adet = Convert.ToDouble(Console.ReadLine());
+                                toplam = adet * 1.00;
+                                hesap = hesap + toplam;
+                                break;
+                            }
+                            else if (secim == 10)
+                            {
+                                Console.WriteLine("Kaç porsiyon Cay  istersiniz : ");
+                                adet = Convert.ToDouble(Console.ReadLine());
+                                toplam = adet * 2.00;
+                                hesap = hesap + toplam;
+                                break;
+                            }
+                            else if (secim == 11)
+                            {
+                                Console.WriteLine("Kaç porsiyon Soda  istersiniz : ");
+                                adet = Convert.ToDouble(Console.ReadLine());
+                                toplam = adet * 2.00;
+                                hesap = hesap + toplam;
+                                break;
+                            }
+                            else if (secim == 12)
+                            {
+                                Console.WriteLine("Kaç porsiyon Fanta  istersiniz : ");
+                                adet = Convert.ToDouble(Console.ReadLine());
+                                toplam = adet * 3.00;
+                                hesap = hesap + toplam;
+                                break;
+                            }
                         }
-
                     }
-                    Console.WriteLine(hesap);
-
-
-
-
-
-
+                    Console.WriteLine("Toplam Hesap :" + hesap + "£");
                     break;
                 }
                 else
                 {
+                    Console.WriteLine("Bu sifre ile kayitli kullanıcı bulunamadı.Kullanıcıyı ekleyebilirsiniz.Evet/Hayır");
 
-                    Console.WriteLine("Bu sifre ile kayitli kullanıcı bulunamadı");
-                    break;
                 }
-
             }
             Console.Read();
-
         }
-
-        //public static void NewUser()
-        //{
-        //    Console.WriteLine("Yeni kullanıcı bilgileri giriniz..");
-        //    string userName, password = string.Empty;
-
-        //    Console.WriteLine("Kullanıcı adı giriniz:");
-        //    userName = Console.ReadLine();
-
-        //    Console.WriteLine("Sifre giriniz:");
-        //    password = Console.ReadLine();
-
-        //    using (StreamWriter sw = new StreamWriter(File.Create("C:\\User.txt")))
-        //    {
-        //        sw.WriteLine(userName);
-        //        sw.WriteLine(password);
-        //        sw.Close();
-
-        //    }
-        //    Console.WriteLine("Done");
-        //    Console.Read();
-        //}
-        //public static void Users()
-        //{
-        //    Console.WriteLine("Yeni kullanıcı bilgileri giriniz..");
-        //    string userName1, password1 = string.Empty;
-
-        //    Console.WriteLine("Kullanıcı adı giriniz:");
-        //    userName1 = Console.ReadLine();
-
-        //    Console.WriteLine("Sifre giriniz:");
-        //    password1 = Console.ReadLine();
-
-        //    using (StreamReader sr= new StreamReader(File.Create("C:\\User.txt")))
-        //    {
-        //        sr.ReadLine();
-        //        sr.ReadLine();
-        //        sr.Close();
-
-        //    }
-        //    Console.WriteLine("Login Success");
-        //    Console.Read();
-        //}
-
     }
 }
