@@ -12,41 +12,25 @@ namespace OrderCLI
         public static void Main(string[] args)
         {
 
+            //butun değişkenler burada
             string password;
             double secim, adet, toplam = 0, hesap = 0;
             bool result = true;
-        
+
             Console.WriteLine("Sifre giriniz:");
             password = Console.ReadLine();
+
+            //kullanıcıların bulunduğu array
             string[] arr = { "11111", "22222", "33333", "44444" };
-
-            
-           
-
 
             foreach (var tc in arr)
             {
-                
+
+                //girilen şifre ile kayıtlı şifre validation oluyor mu kontrolu
                 if (password == tc)
                 {
-                    Console.WriteLine("**********************************************************************");
-                    Console.WriteLine("**                     Patika Restorant Menü                         **");
-                    Console.WriteLine("**                                                                   **");
-                    Console.WriteLine("**           Yemekler          **        İçecekler                   **");
-                    Console.WriteLine("**       ----------------      **     --------------                 **");
-                    Console.WriteLine("**     1-Et Döner     - 7.00   **     7-Ayran   - 1.00 TL            **");
-                    Console.WriteLine("**                             **                                    **");
-                    Console.WriteLine("**     2-Tavuk Döner  - 5.00   **     8-Kola    - 3.00 TL            **");
-                    Console.WriteLine("**                             **                                    **");
-                    Console.WriteLine("**     3-Kuru/Pilav   - 8.00   **     9-su       -1.00 TL            **");
-                    Console.WriteLine("**                             **                                    **");
-                    Console.WriteLine("**     4-Pide         - 6.50   **     10-Cay     -2.00 TL            **");
-                    Console.WriteLine("**                             **                                    **");
-                    Console.WriteLine("**     5-Corbalar     - 5.50   **     11-Soda    -2.00 TL            **");
-                    Console.WriteLine("**                             **                                    **");
-                    Console.WriteLine("**     6-Salata       - 3.50   **     12-Fanta   -3.00 TL            **");
-                    Console.WriteLine("**                             **                                    **");
-                    Console.WriteLine("**********************************************************************");
+                    //menu methodu
+                    Menu();
 
                     while (result)
                     {
@@ -169,5 +153,29 @@ namespace OrderCLI
             }
             Console.Read();
         }
+        //Menu ve içeriği
+        public static void Menu()
+        {
+            Console.WriteLine("**********************************************************************");
+            Console.WriteLine("**                     Patika Restorant Menü                         **");
+            Console.WriteLine("**                                                                   **");
+            Console.WriteLine("**           Yemekler          **        İçecekler                   **");
+            Console.WriteLine("**       ----------------      **     --------------                 **");
+            Console.WriteLine("**     1-Et Döner     - 7.00   **     7-Ayran   - 1.00 TL            **");
+            Console.WriteLine("**                             **                                    **");
+            Console.WriteLine("**     2-Tavuk Döner  - 5.00   **     8-Kola    - 3.00 TL            **");
+            Console.WriteLine("**                             **                                    **");
+            Console.WriteLine("**     3-Kuru/Pilav   - 8.00   **     9-su       -1.00 TL            **");
+            Console.WriteLine("**                             **                                    **");
+            Console.WriteLine("**     4-Pide         - 6.50   **     10-Cay     -2.00 TL            **");
+            Console.WriteLine("**                             **                                    **");
+            Console.WriteLine("**     5-Corbalar     - 5.50   **     11-Soda    -2.00 TL            **");
+            Console.WriteLine("**                             **                                    **");
+            Console.WriteLine("**     6-Salata       - 3.50   **     12-Fanta   -3.00 TL            **");
+            Console.WriteLine("**                             **                                    **");
+            Console.WriteLine("**********************************************************************");
+        }
+       
+       
     }
 }
