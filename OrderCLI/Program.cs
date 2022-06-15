@@ -7,31 +7,93 @@ using System.Threading.Tasks;
 
 namespace OrderCLI
 {
+
     public class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
 
-            //butun değişkenler burada
-            string password;
-            double secim, adet, toplam = 0, hesap = 0;
-            bool result = true;
+            //ana kodun olduğu method
+            ThrowEx();
+        }
+        public static void ThrowEx()
+        {
+            string deneme = string.Empty;
+            int yeniKayit = 11;
+            int siradaki = 10;
 
-            Console.WriteLine("Sifre giriniz:");
-            password = Console.ReadLine();
+            //misafir giris numarası Dizisi
+            string[] misafirNo = new string[yeniKayit];
+            misafirNo[0] = "101";
+            misafirNo[1] = "102";
+            misafirNo[2] = "103";
+            misafirNo[3] = "104";
+            misafirNo[4] = "105";
+            misafirNo[5] = "106";
+            misafirNo[6] = "107";
+            misafirNo[7] = "108";
+            misafirNo[8] = "109";
+            misafirNo[9] = "110";
 
-            //kullanıcıların bulunduğu array
-            string[] arr = { "11111", "22222", "33333", "44444" };
+            //misafir adı Dizisi
+            ///string[] isim = { "Ali", "Veli", "Hasan", "Kemal", "Can", "Ahmet", "Mehmet", "Enis", "Bilal", "Burak" };
+            string[] misafirAd = new string[yeniKayit];
+            misafirAd[0] = "Ali";
+            misafirAd[1] = "Veli";
+            misafirAd[2] = "Hasan";
+            misafirAd[3] = "Kemal";
+            misafirAd[4] = "Can";
+            misafirAd[5] = "Ahmet";
+            misafirAd[6] = "Mehmet";
+            misafirAd[7] = "Enis";
+            misafirAd[8] = "Bilal";
+            misafirAd[9] = "Burak";
 
-            foreach (var tc in arr)
+            deneme:
+            Console.Write("Kişi No'yu girin: ");
+            string aranan = Console.ReadLine();
+            int no = Array.IndexOf(misafirNo, aranan.ToString());
+            Console.WriteLine("===========================================================================");
+
+
+            //Kayıtlı misafir olmadığın yeni kayıt yeri
+            if (no == -1)
             {
+                Console.Write("Kişi Bulunamadı ");
+                Console.Write("Lütfen yeni kayıt yapınız ");
 
-                //girilen şifre ile kayıtlı şifre validation oluyor mu kontrolu
-                if (password == tc)
+
+                Console.Write("TC No'yu girin: ");
+                misafirNo[siradaki] = Console.ReadLine();
+                Console.Write("Ad Soyad  girin: ");
+                misafirAd[siradaki] = Console.ReadLine();
+                //Console.Write("Telefon  girin: ");
+                //telefon[siradaki] = Console.ReadLine();
+                //Console.Write("Mail  girin: ");
+                //mail[siradaki] = Console.ReadLine();
+                Console.Write("Kayıt başarılı");
+
+                siradaki++;
+                yeniKayit++;
+                Console.Clear();
+                Console.Write("Kayıt başarılı");
+                goto deneme;
+
+            }
+            else
+            {
+                Console.WriteLine("Misafirimiz : {0}", misafirAd[no]);
+
+            }
+            foreach (var uye in misafirNo)
+            {
+                //butun değişkenler burada
+                string password;
+                double secim, adet, toplam = 0, hesap = 0;
+                bool result = true;
+                if (aranan == uye)
                 {
-                    //menu methodu
                     Menu();
-
                     while (result)
                     {
                         for (int i = 0; i < 100; i++)
@@ -145,15 +207,15 @@ namespace OrderCLI
                     Console.WriteLine("Toplam Hesap :" + hesap + "£");
                     break;
                 }
-                else
-                {
-                    Console.WriteLine("Bu sifre ile kayitli kullanıcı bulunamadı.Kullanıcıyı ekleyebilirsiniz.Evet/Hayır");
 
-                }
+
+
             }
-            Console.Read();
+            Console.ReadKey();
         }
-        //Menu ve içeriği
+
+
+        //menu fiyat ve içerik methodu
         public static void Menu()
         {
             Console.WriteLine("**********************************************************************");
@@ -175,7 +237,11 @@ namespace OrderCLI
             Console.WriteLine("**                             **                                    **");
             Console.WriteLine("**********************************************************************");
         }
-       
-       
     }
+
+
 }
+
+
+
+
