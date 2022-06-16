@@ -136,6 +136,7 @@ namespace OrderCLI
                                 adet = Convert.ToDouble(Console.ReadLine());
                                 toplam = adet * 6.50;
                                 hesap = hesap + toplam;
+                                result = false;
                                 break;
                             }
                             else if (secim == 5)
@@ -144,6 +145,7 @@ namespace OrderCLI
                                 adet = Convert.ToDouble(Console.ReadLine());
                                 toplam = adet * 5.50;
                                 hesap = hesap + toplam;
+                                result = false;
                                 break;
                             }
                             else if (secim == 6)
@@ -152,6 +154,7 @@ namespace OrderCLI
                                 adet = Convert.ToDouble(Console.ReadLine());
                                 toplam = adet * 3.50;
                                 hesap = hesap + toplam;
+                                result = false;
                                 break;
                             }
                             else if (secim == 7)
@@ -160,6 +163,7 @@ namespace OrderCLI
                                 adet = Convert.ToDouble(Console.ReadLine());
                                 toplam = adet * 1.00;
                                 hesap = hesap + toplam;
+                                result = false;
                                 break;
                             }
                             else if (secim == 8)
@@ -168,6 +172,7 @@ namespace OrderCLI
                                 adet = Convert.ToDouble(Console.ReadLine());
                                 toplam = adet * 3.00;
                                 hesap = hesap + toplam;
+                                result = false;
                                 break;
                             }
                             else if (secim == 9)
@@ -176,6 +181,7 @@ namespace OrderCLI
                                 adet = Convert.ToDouble(Console.ReadLine());
                                 toplam = adet * 1.00;
                                 hesap = hesap + toplam;
+                                result = false;
                                 break;
                             }
                             else if (secim == 10)
@@ -184,6 +190,7 @@ namespace OrderCLI
                                 adet = Convert.ToDouble(Console.ReadLine());
                                 toplam = adet * 2.00;
                                 hesap = hesap + toplam;
+                                result = false;
                                 break;
                             }
                             else if (secim == 11)
@@ -192,6 +199,7 @@ namespace OrderCLI
                                 adet = Convert.ToDouble(Console.ReadLine());
                                 toplam = adet * 2.00;
                                 hesap = hesap + toplam;
+                                result = false;
                                 break;
                             }
                             else if (secim == 12)
@@ -200,6 +208,7 @@ namespace OrderCLI
                                 adet = Convert.ToDouble(Console.ReadLine());
                                 toplam = adet * 3.00;
                                 hesap = hesap + toplam;
+                                result = false;
                                 break;
                             }
                         }
