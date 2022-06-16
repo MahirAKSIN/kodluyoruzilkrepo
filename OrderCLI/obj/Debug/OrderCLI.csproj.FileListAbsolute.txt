@@ -12,3 +12,10 @@ C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\OrderCLI\obj\Debug\Ord
 C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\OrderCLI\obj\Debug\OrderCLI.csproj.CoreCompileInputs.cache
 C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\OrderCLI\obj\Debug\OrderCLI.exe
 C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\OrderCLI\obj\Debug\OrderCLI.pdb
+C:\Users\Web ve Mobil Prog\Desktop\OrderCLI\bin\Debug\OrderCLI.exe.config
+C:\Users\Web ve Mobil Prog\Desktop\OrderCLI\bin\Debug\OrderCLI.exe
+C:\Users\Web ve Mobil Prog\Desktop\OrderCLI\bin\Debug\OrderCLI.pdb
+C:\Users\Web ve Mobil Prog\Desktop\OrderCLI\obj\Debug\OrderCLI.csproj.AssemblyReference.cache
+C:\Users\Web ve Mobil Prog\Desktop\OrderCLI\obj\Debug\OrderCLI.csproj.CoreCompileInputs.cache
+C:\Users\Web ve Mobil Prog\Desktop\OrderCLI\obj\Debug\OrderCLI.exe
+C:\Users\Web ve Mobil Prog\Desktop\OrderCLI\obj\Debug\OrderCLI.pdb
