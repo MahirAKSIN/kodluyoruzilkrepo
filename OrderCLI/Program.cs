@@ -137,136 +137,112 @@ namespace OrderCLI
                             else if (selected == 4)
                             {
                                 Console.WriteLine("Kaç porsiyon Pide  istersiniz : ");
-<<<<<<< HEAD
                                 piece = Convert.ToDouble(Console.ReadLine());
                                 total = piece * 6.50;
                                 amount = amount + total;
-=======
-                                adet = Convert.ToDouble(Console.ReadLine());
-                                toplam = adet * 6.50;
-                                hesap = hesap + toplam;
+
+                           
                                 result = false;
->>>>>>> b87d3c2801350913bfcc35dad31d5c06b8a19aee
                                 break;
                             }
                             else if (selected == 5)
                             {
                                 Console.WriteLine("Kaç porsiyon Corba  istersiniz : ");
-<<<<<<< HEAD
+
                                 piece = Convert.ToDouble(Console.ReadLine());
                                 total = piece * 5.50;
                                 amount = amount + total;
-=======
-                                adet = Convert.ToDouble(Console.ReadLine());
-                                toplam = adet * 5.50;
-                                hesap = hesap + toplam;
+
+                         
                                 result = false;
->>>>>>> b87d3c2801350913bfcc35dad31d5c06b8a19aee
+
                                 break;
                             }
                             else if (selected == 6)
                             {
                                 Console.WriteLine("Kaç porsiyon Salata  istersiniz : ");
-<<<<<<< HEAD
+
                                 piece = Convert.ToDouble(Console.ReadLine());
                                 total = piece * 3.50;
                                 amount = amount + total;
-=======
-                                adet = Convert.ToDouble(Console.ReadLine());
-                                toplam = adet * 3.50;
-                                hesap = hesap + toplam;
+
+                           
                                 result = false;
->>>>>>> b87d3c2801350913bfcc35dad31d5c06b8a19aee
+
                                 break;
                             }
                             else if (selected == 7)
                             {
                                 Console.WriteLine("Kaç porsiyon Ayran  istersiniz : ");
-<<<<<<< HEAD
+
                                 piece = Convert.ToDouble(Console.ReadLine());
                                 total = piece * 1.00;
                                 amount = amount + total;
-=======
-                                adet = Convert.ToDouble(Console.ReadLine());
-                                toplam = adet * 1.00;
-                                hesap = hesap + toplam;
+                       
                                 result = false;
->>>>>>> b87d3c2801350913bfcc35dad31d5c06b8a19aee
+
                                 break;
                             }
                             else if (selected == 8)
                             {
                                 Console.WriteLine("Kaç porsiyon Cola  istersiniz : ");
-<<<<<<< HEAD
+
                                 piece = Convert.ToDouble(Console.ReadLine());
                                 total = piece * 3.00;
                                 amount = amount + total;
-=======
-                                adet = Convert.ToDouble(Console.ReadLine());
-                                toplam = adet * 3.00;
-                                hesap = hesap + toplam;
+
+                           
                                 result = false;
->>>>>>> b87d3c2801350913bfcc35dad31d5c06b8a19aee
+
                                 break;
                             }
                             else if (selected == 9)
                             {
                                 Console.WriteLine("Kaç porsiyon Su  istersiniz : ");
-<<<<<<< HEAD
+
                                 piece = Convert.ToDouble(Console.ReadLine());
                                 total = piece * 1.00;
                                 amount = amount + total;
-=======
-                                adet = Convert.ToDouble(Console.ReadLine());
-                                toplam = adet * 1.00;
-                                hesap = hesap + toplam;
+
+                             
                                 result = false;
->>>>>>> b87d3c2801350913bfcc35dad31d5c06b8a19aee
+
                                 break;
                             }
                             else if (selected == 10)
                             {
                                 Console.WriteLine("Kaç porsiyon Cay  istersiniz : ");
-<<<<<<< HEAD
+
                                 piece = Convert.ToDouble(Console.ReadLine());
                                 total = piece * 2.00;
                                 amount = amount + total;
-=======
-                                adet = Convert.ToDouble(Console.ReadLine());
-                                toplam = adet * 2.00;
-                                hesap = hesap + toplam;
+
+                              
+                             
                                 result = false;
->>>>>>> b87d3c2801350913bfcc35dad31d5c06b8a19aee
+
                                 break;
                             }
                             else if (selected == 11)
                             {
                                 Console.WriteLine("Kaç porsiyon Soda  istersiniz : ");
-<<<<<<< HEAD
+
                                 piece = Convert.ToDouble(Console.ReadLine());
                                 total = piece * 2.00;
                                 amount = amount + total;
-=======
-                                adet = Convert.ToDouble(Console.ReadLine());
-                                toplam = adet * 2.00;
-                                hesap = hesap + toplam;
+
+                            
                                 result = false;
->>>>>>> b87d3c2801350913bfcc35dad31d5c06b8a19aee
                                 break;
                             }
                             else if (selected == 12)
                             {
                                 Console.WriteLine("Kaç porsiyon Fanta  istersiniz : ");
-<<<<<<< HEAD
                                 piece = Convert.ToDouble(Console.ReadLine());
                                 total = piece * 3.00;
                                 amount = amount + total;
-=======
-                                adet = Convert.ToDouble(Console.ReadLine());
-                                toplam = adet * 3.00;
-                                hesap = hesap + toplam;
+                               
                                 result = false;
->>>>>>> b87d3c2801350913bfcc35dad31d5c06b8a19aee
                                 break;
                             }
                         }
