@@ -17,9 +17,9 @@ namespace PatikaApp.Controllers
         AdminInfoManager adminInfoManager = new AdminInfoManager(new  EfCoreAdminInfoRepository());
 
         [HttpGet]
-        public async Task<IActionResult> GetAdminInfo()
+        public async Task<IActionResult> GetInformations()
         {
-            var adminInfo = adminInfoManager.GetAllWithDetails();
+            var adminInfo = await adminInfoManager.GetAllWithDetails();
             return Ok(adminInfo);
         }
         [HttpGet("{id}")]

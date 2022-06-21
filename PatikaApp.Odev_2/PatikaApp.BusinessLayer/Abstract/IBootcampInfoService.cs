@@ -14,7 +14,6 @@ namespace PatikaApp.BusinessLayer.Abstract
         Task CreateAsync(BootcampInfo entity);
         Task UpdateAsync(BootcampInfo entity);
         Task DeleteAsync(BootcampInfo entity);
-        Task<List<BootcampInfo>> GetAllWithDetails();
 
 
     }

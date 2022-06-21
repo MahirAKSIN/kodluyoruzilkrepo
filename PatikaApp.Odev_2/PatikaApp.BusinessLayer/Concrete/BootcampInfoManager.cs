@@ -18,34 +18,30 @@ namespace PatikaApp.BusinessLayer.Concrete
             _bootcampInfo = bootcampInfo;
         }
 
-        public Task CreateAsync(BootcampInfo entity)
+        public async Task CreateAsync(BootcampInfo entity)
         {
-            throw new NotImplementedException();
+            await _bootcampInfo.CreateAsync(entity);
         }
 
-        public Task DeleteAsync(BootcampInfo entity)
+        public async Task DeleteAsync(BootcampInfo entity)
         {
-            throw new NotImplementedException();
+            await _bootcampInfo.DeleteAsync(entity);
         }
 
-        public Task<List<BootcampInfo>> GetAll()
+        public async Task<List<BootcampInfo>> GetAll()
         {
-            throw new NotImplementedException();
+            return await _bootcampInfo.GetAll();
+        }
+             
+
+        public async Task<BootcampInfo> GetById(int id)
+        {
+            return await _bootcampInfo.GetById(id);
         }
 
-        public Task<List<BootcampInfo>> GetAllWithDetails()
+        public async Task UpdateAsync(BootcampInfo entity)
         {
-            throw new NotImplementedException();
-        }
-
-        public Task<BootcampInfo> GetById(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task UpdateAsync(BootcampInfo entity)
-        {
-            throw new NotImplementedException();
+            await _bootcampInfo.UpdateAsync(entity);
         }
     }
 }

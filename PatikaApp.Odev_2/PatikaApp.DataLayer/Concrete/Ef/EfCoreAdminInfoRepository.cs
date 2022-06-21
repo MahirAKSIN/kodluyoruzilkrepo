@@ -1,4 +1,5 @@
-﻿using PatikaApp.DataLayer.Abstract;
+﻿using Microsoft.EntityFrameworkCore;
+using PatikaApp.DataLayer.Abstract;
 using PatikaApp.EntityLayer;
 using System;
 using System.Collections.Generic;
@@ -10,9 +11,13 @@ namespace PatikaApp.DataLayer.Concrete.Ef
 {
     public class EfCoreAdminInfoRepository : EfCoreGenericRepository<AdminInfo>, IAdminInfoRepository
     {
-        public Task<List<AdminInfo>> GetAllWithDetails()
+        public async Task<List<AdminInfo>> GetAllWithDetails()
         {
-            throw new NotImplementedException();
+            using (var c = new PatikaContext())
+            {
+                return await c.AdminInfos.Include(x =>x.BootcampInfo).Include(x => x.EducatorInfo).ToListAsync();
+            }
         }
     }
 }
+
