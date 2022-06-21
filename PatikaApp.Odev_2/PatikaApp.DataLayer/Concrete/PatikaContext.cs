@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace PatikaApp.DataLayer.Concrete
 {
-    class PatikaContext : DbContext
+    public class PatikaContext : DbContext
     {
         public DbSet<AdminInfo> AdminInfos { get; set; }
         public DbSet<BootcampInfo> BootcampInfos { get; set; }

@@ -19,34 +19,29 @@ namespace PatikaApp.BusinessLayer.Concrete
             _educatorInfo = educatorInfo;
         }
 
-        public Task CreateAsync(EducatorInfo entity)
+        public async Task CreateAsync(EducatorInfo entity)
         {
-            throw new NotImplementedException();
+            await _educatorInfo.CreateAsync(entity);
         }
 
-        public Task DeleteAsync(EducatorInfo entity)
+        public async Task DeleteAsync(EducatorInfo entity)
         {
-            throw new NotImplementedException();
+            await _educatorInfo.DeleteAsync(entity);
         }
 
-        public Task<List<EducatorInfo>> GetAll()
+        public async Task<List<EducatorInfo>> GetAll()
         {
-            throw new NotImplementedException();
+            return await _educatorInfo.GetAll();
         }
 
-        public Task<List<EducatorInfo>> GetAllWithDetails()
+        public async Task<EducatorInfo> GetById(int id)
         {
-            throw new NotImplementedException();
+            return await _educatorInfo.GetById(id);
         }
 
-        public Task<EducatorInfo> GetById(int id)
+        public async Task UpdateAsync(EducatorInfo entity)
         {
-            throw new NotImplementedException();
-        }
-
-        public Task UpdateAsync(EducatorInfo entity)
-        {
-            throw new NotImplementedException();
+            await _educatorInfo.UpdateAsync(entity);
         }
     }
 }

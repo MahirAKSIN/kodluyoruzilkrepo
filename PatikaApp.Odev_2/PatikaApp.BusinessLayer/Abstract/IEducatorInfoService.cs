@@ -14,6 +14,5 @@ namespace PatikaApp.BusinessLayer.Abstract
         Task CreateAsync(EducatorInfo entity);
         Task UpdateAsync(EducatorInfo entity);
         Task DeleteAsync(EducatorInfo entity);
-        Task<List<EducatorInfo>> GetAllWithDetails();
     }
 }

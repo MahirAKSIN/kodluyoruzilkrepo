@@ -16,39 +16,40 @@ namespace PatikaApp.Controllers
     {
         BootcampInfoManager bootcampInfoManager = new BootcampInfoManager(new EfCoreBootcampRepository());
 
-        public async Task<IActionResult> GetInformations()
+        [HttpGet]
+        public async Task<IActionResult> GetBootcampInfos()
         {
 
             var bootcampInfo = await bootcampInfoManager.GetAll();
             return Ok(bootcampInfo);
         }
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetInformation(int id)
+        public async Task<IActionResult> GetBootcampInfo(int id)
         {
-            var detail = await bootcampInfoManager.GetById(id);
-            if (detail == null)
+            var bootcampInfo = await bootcampInfoManager.GetById(id);
+            if (bootcampInfo == null)
             {
                 return NotFound();
             }
-            return Ok(detail);
+            return Ok(bootcampInfo);
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateInformation(BootcampInfo entity)
+        public async Task<IActionResult> CreateBootcampInfo(BootcampInfo entity)
         {
             await bootcampInfoManager.CreateAsync(entity);
-            return CreatedAtAction(nameof(GetInformation), new { id = entity.BootcampId }, entity);
+            return CreatedAtAction(nameof(GetBootcampInfo), new { id = entity.BootcampId }, entity);
         }
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
 
-            var information = await bootcampInfoManager.GetById(id);
-            if (information == null)
+            var bootcampInfo = await bootcampInfoManager.GetById(id);
+            if (bootcampInfo == null)
             {
                 return NotFound();
             }
-            await bootcampInfoManager.DeleteAsync(information);
+            await bootcampInfoManager.DeleteAsync(bootcampInfo);
             return NoContent();
         }
         [HttpPut("{id}")]

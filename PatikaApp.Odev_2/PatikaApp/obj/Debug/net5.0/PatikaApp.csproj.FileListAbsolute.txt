@@ -59,3 +59,5 @@ C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\Patik
 C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\PatikaApp.BusinessLayer.pdb
 C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\PatikaApp.DataLayer.pdb
 C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\PatikaApp.EntityLayer.pdb
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Humanizer.dll
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll

@@ -14,16 +14,16 @@ namespace PatikaApp.Controllers
     [Route("api/[controller]")]
     public class AdminInfoController : ControllerBase
     {
-        AdminInfoManager adminInfoManager = new AdminInfoManager(new  EfCoreAdminInfoRepository());
+        AdminInfoManager adminInfoManager = new AdminInfoManager(new EfCoreAdminInfoRepository());
 
         [HttpGet]
-        public async Task<IActionResult> GetInformations()
+        public async Task<IActionResult> GetAdminInfos()
         {
             var adminInfo = await adminInfoManager.GetAllWithDetails();
             return Ok(adminInfo);
         }
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetInformation(int id)
+        public async Task<IActionResult> GetAdminInfo(int id)
         {
             var adminInfo = await adminInfoManager.GetById(id);
             if (adminInfo == null)
@@ -33,10 +33,10 @@ namespace PatikaApp.Controllers
             return Ok(adminInfo);
         }
         [HttpPost]
-        public async Task<IActionResult> CreateInformation(AdminInfo entity)
+        public async Task<IActionResult> CreateAdminInfo(AdminInfo entity)
         {
             await adminInfoManager.CreateAsync(entity);
-            return CreatedAtAction(nameof(GetInformation), new { id = entity.AdminId }, entity);
+            return CreatedAtAction(nameof(GetAdminInfo), new { id = entity.AdminId }, entity);
         }
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)

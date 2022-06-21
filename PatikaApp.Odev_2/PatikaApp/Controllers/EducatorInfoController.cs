@@ -17,37 +17,37 @@ namespace PatikaApp.Controllers
         EducatorInfoManager educatorInfoManager = new EducatorInfoManager(new EfCoreEducatorRepository());
 
         [HttpGet]
-        public async Task<IActionResult> GetPersonInformations()
+        public async Task<IActionResult> GetEducatorInfos()
         {
-            var personelinformations = await educatorInfoManager.GetAll();
-            return Ok(personelinformations);
+            var educatorInfos = await educatorInfoManager.GetAll();
+            return Ok(educatorInfos);
         }
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetPersonInformation(int id)
+        public async Task<IActionResult> GetEducatorInfo(int id)
         {
-            var personelinformation = await educatorInfoManager.GetById(id);
-            if (personelinformation == null)
+            var educatorInfos = await educatorInfoManager.GetById(id);
+            if (educatorInfos == null)
             {
                 return NotFound();
             }
-            return Ok(personelinformation);
+            return Ok(educatorInfos);
         }
         [HttpPost]
-        public async Task<IActionResult> CreatePersonInformation(EducatorInfo entity)
+        public async Task<IActionResult> CreateEducatorInfo(EducatorInfo entity)
         {
             await educatorInfoManager.CreateAsync(entity);
-            return CreatedAtAction(nameof(GetPersonInformation), new { id = entity.EducatorId }, entity);
+            return CreatedAtAction(nameof(GetEducatorInfo), new { id = entity.EducatorId }, entity);
         }
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
 
-            var personelinformation = await educatorInfoManager.GetById(id);
-            if (personelinformation == null)
+            var educatorInfos = await educatorInfoManager.GetById(id);
+            if (educatorInfos == null)
             {
                 return NotFound();
             }
-            await educatorInfoManager.DeleteAsync(personelinformation);
+            await educatorInfoManager.DeleteAsync(educatorInfos);
             return NoContent();
         }
         [HttpPut("{id}")]
