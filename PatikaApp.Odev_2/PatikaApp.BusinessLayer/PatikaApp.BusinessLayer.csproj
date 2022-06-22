@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PatikaApp.DataLayer\PatikaApp.DataLayer.csproj" />
+    <ProjectReference Include="..\PatikaApp.EntityLayer\PatikaApp.EntityLayer.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp.BusinessLayer\bin\Debug\net5.0\PatikaApp.BusinessLayer.deps.json
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp.BusinessLayer\bin\Debug\net5.0\PatikaApp.BusinessLayer.dll
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp.BusinessLayer\bin\Debug\net5.0\ref\PatikaApp.BusinessLayer.dll
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp.BusinessLayer\bin\Debug\net5.0\PatikaApp.BusinessLayer.pdb
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp.BusinessLayer\obj\Debug\net5.0\PatikaApp.BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp.BusinessLayer\obj\Debug\net5.0\PatikaApp.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp.BusinessLayer\obj\Debug\net5.0\PatikaApp.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp.BusinessLayer\obj\Debug\net5.0\PatikaApp.BusinessLayer.AssemblyInfo.cs
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp.BusinessLayer\obj\Debug\net5.0\PatikaApp.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp.BusinessLayer\obj\Debug\net5.0\PatikaApp.BusinessLayer.dll
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp.BusinessLayer\obj\Debug\net5.0\ref\PatikaApp.BusinessLayer.dll
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp.BusinessLayer\obj\Debug\net5.0\PatikaApp.BusinessLayer.pdb
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp.BusinessLayer\bin\Debug\net5.0\PatikaApp.DataLayer.dll
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp.BusinessLayer\bin\Debug\net5.0\PatikaApp.EntityLayer.dll
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp.BusinessLayer\bin\Debug\net5.0\PatikaApp.DataLayer.pdb
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp.BusinessLayer\bin\Debug\net5.0\PatikaApp.EntityLayer.pdb
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp.BusinessLayer\obj\Debug\net5.0\PatikaApp.BusinessLayer.csproj.CopyComplete
