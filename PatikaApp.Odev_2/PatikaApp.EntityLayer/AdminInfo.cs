@@ -19,8 +19,8 @@ namespace PatikaApp.EntityLayer
         public string AdminEmail { get; set; }
 
         //Diğer Tablolara ilişkiler ,tek tek ilişki
-        public int BootcampId { get; set; }
-        public int EducatorId { get; set; }
+        public int BootcampInfoId { get; set; }
+        public int EducatorInfoId { get; set; }
 
         public BootcampInfo BootcampInfo { get; set; }
         public EducatorInfo EducatorInfo { get; set; }

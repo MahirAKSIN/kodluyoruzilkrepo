@@ -23,8 +23,8 @@ namespace PatikaApp.DataLayer.Config
                     AdminId = 1,
                     AdminName = "Mahir",
                     AdminEmail = "mahir@hotmail.com",
-                    EducatorId = 1,
-                    BootcampId = 1
+                    EducatorInfoId = 1,
+                    BootcampInfoId = 1
 
                 },
                 new AdminInfo()
@@ -32,8 +32,8 @@ namespace PatikaApp.DataLayer.Config
                     AdminId = 2,
                     AdminName = "Serkan",
                     AdminEmail = "ince@hotmail.com",
-                    EducatorId = 2,
-                    BootcampId = 2
+                    EducatorInfoId = 2,
+                    BootcampInfoId = 2
                 });
         }
     }

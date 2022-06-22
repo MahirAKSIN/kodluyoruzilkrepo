@@ -16,3 +16,21 @@ C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\Patik
 C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp.DataLayer\bin\Debug\net5.0\PatikaApp.EntityLayer.pdb
 C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp.DataLayer\obj\Debug\net5.0\PatikaApp.DataLayer.csproj.CopyComplete
 C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp.DataLayer\obj\Debug\net5.0\PatikaApp.DataLayer.genruntimeconfig.cache
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp.DataLayer\bin\Debug\net5.0\PatikaApp.DataLayer.deps.json
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp.DataLayer\bin\Debug\net5.0\PatikaApp.DataLayer.runtimeconfig.json
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp.DataLayer\bin\Debug\net5.0\PatikaApp.DataLayer.runtimeconfig.dev.json
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp.DataLayer\bin\Debug\net5.0\PatikaApp.DataLayer.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp.DataLayer\bin\Debug\net5.0\ref\PatikaApp.DataLayer.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp.DataLayer\bin\Debug\net5.0\PatikaApp.DataLayer.pdb
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp.DataLayer\bin\Debug\net5.0\PatikaApp.EntityLayer.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp.DataLayer\bin\Debug\net5.0\PatikaApp.EntityLayer.pdb
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp.DataLayer\obj\Debug\net5.0\PatikaApp.DataLayer.csproj.AssemblyReference.cache
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp.DataLayer\obj\Debug\net5.0\PatikaApp.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp.DataLayer\obj\Debug\net5.0\PatikaApp.DataLayer.AssemblyInfoInputs.cache
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp.DataLayer\obj\Debug\net5.0\PatikaApp.DataLayer.AssemblyInfo.cs
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp.DataLayer\obj\Debug\net5.0\PatikaApp.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp.DataLayer\obj\Debug\net5.0\PatikaApp.DataLayer.csproj.CopyComplete
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp.DataLayer\obj\Debug\net5.0\PatikaApp.DataLayer.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp.DataLayer\obj\Debug\net5.0\ref\PatikaApp.DataLayer.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp.DataLayer\obj\Debug\net5.0\PatikaApp.DataLayer.pdb
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp.DataLayer\obj\Debug\net5.0\PatikaApp.DataLayer.genruntimeconfig.cache

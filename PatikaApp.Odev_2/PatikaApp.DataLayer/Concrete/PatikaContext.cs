@@ -18,7 +18,8 @@ namespace PatikaApp.DataLayer.Concrete
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data Source = PatikaAppDB.db");
+            optionsBuilder.UseSqlServer("server=DESKTOP-8M7D7GE\\SQLEXPRESS;database=PatikaAppDB;integrated security=true;");
+            //optionsBuilder.UseSqlite("Data Source = PatikaAppDB.db");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

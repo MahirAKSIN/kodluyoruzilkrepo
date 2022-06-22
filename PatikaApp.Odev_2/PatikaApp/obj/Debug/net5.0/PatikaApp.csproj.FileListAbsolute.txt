@@ -1,63 +1,88 @@
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\appsettings.Development.json
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\appsettings.json
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\PatikaApp.exe
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\PatikaApp.deps.json
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\PatikaApp.runtimeconfig.json
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\PatikaApp.runtimeconfig.dev.json
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\PatikaApp.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\ref\PatikaApp.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\PatikaApp.pdb
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\PatikaApp.csproj.AssemblyReference.cache
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\PatikaApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\PatikaApp.AssemblyInfoInputs.cache
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\PatikaApp.AssemblyInfo.cs
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\PatikaApp.csproj.CoreCompileInputs.cache
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\PatikaApp.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\PatikaApp.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\staticwebassets\PatikaApp.StaticWebAssets.Manifest.cache
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\staticwebassets\PatikaApp.StaticWebAssets.xml
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\scopedcss\bundle\PatikaApp.styles.css
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\PatikaApp.RazorTargetAssemblyInfo.cache
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\PatikaApp.csproj.CopyComplete
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\PatikaApp.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\ref\PatikaApp.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\PatikaApp.pdb
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\PatikaApp.genruntimeconfig.cache
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\SQLitePCLRaw.core.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\PatikaApp.BusinessLayer.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\PatikaApp.DataLayer.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\PatikaApp.EntityLayer.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\PatikaApp.BusinessLayer.pdb
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\PatikaApp.DataLayer.pdb
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\PatikaApp.EntityLayer.pdb
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Humanizer.dll
-C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\appsettings.json
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\PatikaApp.exe
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\PatikaApp.deps.json
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\PatikaApp.runtimeconfig.json
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\PatikaApp.runtimeconfig.dev.json
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\PatikaApp.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\ref\PatikaApp.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\PatikaApp.pdb
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\SQLitePCLRaw.nativelibrary.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\SQLitePCLRaw.core.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\PatikaApp.BusinessLayer.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\PatikaApp.DataLayer.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\PatikaApp.EntityLayer.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\PatikaApp.BusinessLayer.pdb
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\PatikaApp.DataLayer.pdb
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\PatikaApp.EntityLayer.pdb
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\PatikaApp.csproj.AssemblyReference.cache
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\PatikaApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\PatikaApp.AssemblyInfoInputs.cache
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\PatikaApp.AssemblyInfo.cs
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\PatikaApp.csproj.CoreCompileInputs.cache
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\PatikaApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\PatikaApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\staticwebassets\PatikaApp.StaticWebAssets.Manifest.cache
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\staticwebassets\PatikaApp.StaticWebAssets.xml
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\scopedcss\bundle\PatikaApp.styles.css
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\PatikaApp.RazorTargetAssemblyInfo.cache
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\PatikaApp.csproj.CopyComplete
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\PatikaApp.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\ref\PatikaApp.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\PatikaApp.pdb
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\obj\Debug\net5.0\PatikaApp.genruntimeconfig.cache
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll

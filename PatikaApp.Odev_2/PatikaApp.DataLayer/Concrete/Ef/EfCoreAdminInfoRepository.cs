@@ -15,7 +15,8 @@ namespace PatikaApp.DataLayer.Concrete.Ef
         {
             using (var c = new PatikaContext())
             {
-                return await c.AdminInfos.Include(x =>x.BootcampInfo).Include(x => x.EducatorInfo).ToListAsync();
+                var d= await c.AdminInfos.ToListAsync();
+                return d;
             }
         }
     }
