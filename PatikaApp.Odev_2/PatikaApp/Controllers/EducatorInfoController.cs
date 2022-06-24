@@ -9,6 +9,16 @@ using System.Threading.Tasks;
 
 namespace PatikaApp.Controllers
 {
+
+    //
+    /// <summary>
+    /// Bu controllerda EducatorInfo için yapılmıştır.
+    /// Bu controllerda sadece EducatorInfo için dataları List halinde getirme işlemi yapılacaktır
+    /// Dİğer Crud işlemleri Admin tarafından yapılacaktır
+    /// 
+    /// 
+    /// </summary>
+
     [ApiController]
     [Route("api/[controller]")]
     public class EducatorInfoController : ControllerBase

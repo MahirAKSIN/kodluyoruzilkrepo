@@ -10,6 +10,15 @@ using System.Threading.Tasks;
 namespace PatikaApp.Controllers
 {
 
+    //
+    /// <summary>
+    /// Bu controllerda AdminInfo için yapılmıştır.
+    /// Admini yapacağı butun işlemlerin tutulduğu yerdir
+    /// AdminInfo CRUD işlemleri ve diğer tabloların ilişkisinin düzenlendiği controllerdır
+    /// HttpGEt,HttpPost ve projenin ana damarları olan APInin ayağa kalktığı yerdir
+    /// </summary>
+
+
     [ApiController]
     [Route("api/[controller]")]
     public class AdminInfoController : ControllerBase

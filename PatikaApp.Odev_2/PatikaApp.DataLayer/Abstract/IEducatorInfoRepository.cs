@@ -9,5 +9,6 @@ namespace PatikaApp.DataLayer.Abstract
 {
     public interface IEducatorInfoRepository : IRepository<EducatorInfo>
     {
+
     }
 }

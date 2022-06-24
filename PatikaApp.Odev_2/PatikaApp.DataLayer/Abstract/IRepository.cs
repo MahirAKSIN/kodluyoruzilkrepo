@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace PatikaApp.DataLayer.Abstract
 {
+
+
+    //database crud işlemleri ve ekstra methodların olusturuşduğu Interface
+    //ilişkilerin başladığı class
+    //Genericrepository De bu boş  methodların imzası atılacaktır
    public interface IRepository<T>
     {
         Task<T> GetById(int id);

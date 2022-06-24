@@ -9,6 +9,9 @@ namespace PatikaApp.EntityLayer
 {
     public class BootcampInfo
     {
+        //BootcampInfo için bilgilerinin ve diğer entity classlarının admin olan ilişkileri burada tutuyor.
+        //Encapsulation yapılmıştır
+
         [Key]
         public int BootcampId { get; set; }
         public string BootcampName { get; set; }

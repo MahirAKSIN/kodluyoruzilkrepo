@@ -11,13 +11,18 @@ namespace PatikaApp.DataLayer.Concrete
 {
     public class PatikaContext : DbContext
     {
+        //databse tablolarının oluştuğu class.Kalıtım olarak Dbcontext kullanıldı.
         public DbSet<AdminInfo> AdminInfos { get; set; }
         public DbSet<BootcampInfo> BootcampInfos { get; set; }
         public DbSet<EducatorInfo> EducatorInfos { get; set; }
 
 
+
+        //database bağlantı yollu Hem Msql hemde sqlite bağlantısı mevcut.
+        //Sqlite tercih edildi cunku programı baska pc calıştırırken extra database yolu vermeye gerek yok
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            //optionsBuilder.UseSqlServer("server=DESKTOP-8M7D7GE\\SQLEXPRESS;database=PatikaAppDB;integrated security=true;");
             optionsBuilder.UseSqlite("Data Source = PatikaAppDB.db");
         }
 

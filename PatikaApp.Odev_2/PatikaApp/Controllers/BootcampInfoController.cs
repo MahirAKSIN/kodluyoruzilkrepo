@@ -9,6 +9,14 @@ using System.Threading.Tasks;
 
 namespace PatikaApp.Controllers
 {
+    //
+    /// <summary>
+    /// Bu controllerda BootcampInfo için yapılmıştır.
+    /// Bu controllerda sadece Bootcapm için dataları List halinde getirme işlemi yapılacaktır
+    /// Dİğer Crud işlemleri Admin tarafından yapılacaktır
+    /// 
+    /// 
+    /// </summary>
 
     [ApiController]
     [Route("api/[controller]")]

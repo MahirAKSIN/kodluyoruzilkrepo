@@ -11,6 +11,11 @@ namespace PatikaApp.DataLayer.Config
 {
     public class EducatorInfoConfig : IEntityTypeConfiguration<EducatorInfo>
     {
+
+        //EducatorInfo tablosuna manuel data aktarımı yappıldı bu classta.
+        //mainde kod ilk ayağa kalktığında herhangi bir nullExcp hatasına uğramamk için düşünmüştür,
+
+
         public void Configure(EntityTypeBuilder<EducatorInfo> builder)
         {
 
