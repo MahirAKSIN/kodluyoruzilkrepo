@@ -22,8 +22,13 @@ namespace PatikaApp.DataLayer.Concrete
         //Sqlite tercih edildi cunku programı baska pc calıştırırken extra database yolu vermeye gerek yok
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+<<<<<<< HEAD
             //optionsBuilder.UseSqlServer("server=DESKTOP-8M7D7GE\\SQLEXPRESS;database=PatikaAppDB;integrated security=true;");
             optionsBuilder.UseSqlite("Data Source = PatikaAppDB.db");
+=======
+            optionsBuilder.UseSqlServer("server=DESKTOP-8M7D7GE\\SQLEXPRESS;database=PatikaAppDB;integrated security=true;");
+            //optionsBuilder.UseSqlite("Data Source = PatikaAppDB.db");
+>>>>>>> 08ff82ae35036c308dab168a753680acd1d96e67
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

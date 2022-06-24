@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "uCv4ja4PRGrFW/HYTmwPRzZRoU4clItGx9hAYVbvl8gNeIF4j6GSGRttFk04wfhOkGHT4NlcFrkArSm5AW73/A==",
   "success": true,
   "projectFilePath": "C:\\Users\\inspi\\OneDrive\\Masaüstü\\PatikaApp.Odev_2\\PatikaApp.EntityLayer\\PatikaApp.EntityLayer.csproj",
+=======
+  "dgSpecHash": "k32zj0hZ9ffz4KTcC2/ykPakz24AKj8Fae1+xCuRNGHq9F5I30zceroV46jWLvLERM8IZ9D3I67Qxhw4pPTTow==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Web ve Mobil Prog\\Desktop\\kodluyoruzilkrepo-main\\PatikaApp.Odev_2\\PatikaApp.EntityLayer\\PatikaApp.EntityLayer.csproj",
+>>>>>>> 08ff82ae35036c308dab168a753680acd1d96e67
   "expectedPackageFiles": [],
   "logs": []
 }
