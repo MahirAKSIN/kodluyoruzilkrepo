@@ -34,7 +34,6 @@ C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\Patik
 C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp.DataLayer\obj\Debug\net5.0\ref\PatikaApp.DataLayer.dll
 C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp.DataLayer\obj\Debug\net5.0\PatikaApp.DataLayer.pdb
 C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp.DataLayer\obj\Debug\net5.0\PatikaApp.DataLayer.genruntimeconfig.cache
-<<<<<<< HEAD
 C:\Users\inspi\OneDrive\Masaüstü\PatikaApp.Odev_2\PatikaApp.DataLayer\bin\Debug\net5.0\PatikaApp.DataLayer.deps.json
 C:\Users\inspi\OneDrive\Masaüstü\PatikaApp.Odev_2\PatikaApp.DataLayer\bin\Debug\net5.0\PatikaApp.DataLayer.runtimeconfig.json
 C:\Users\inspi\OneDrive\Masaüstü\PatikaApp.Odev_2\PatikaApp.DataLayer\bin\Debug\net5.0\PatikaApp.DataLayer.runtimeconfig.dev.json
@@ -53,5 +52,3 @@ C:\Users\inspi\OneDrive\Masaüstü\PatikaApp.Odev_2\PatikaApp.DataLayer\obj\Debu
 C:\Users\inspi\OneDrive\Masaüstü\PatikaApp.Odev_2\PatikaApp.DataLayer\obj\Debug\net5.0\ref\PatikaApp.DataLayer.dll
 C:\Users\inspi\OneDrive\Masaüstü\PatikaApp.Odev_2\PatikaApp.DataLayer\obj\Debug\net5.0\PatikaApp.DataLayer.pdb
 C:\Users\inspi\OneDrive\Masaüstü\PatikaApp.Odev_2\PatikaApp.DataLayer\obj\Debug\net5.0\PatikaApp.DataLayer.genruntimeconfig.cache
-=======
->>>>>>> 08ff82ae35036c308dab168a753680acd1d96e67

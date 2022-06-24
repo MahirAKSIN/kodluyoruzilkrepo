@@ -9,6 +9,12 @@ namespace PatikaApp.BusinessLayer.Abstract
 {
    public interface IAdminInfoService
     {
+
+
+        //Sunum katmanından gelen bilgileri gerekli koşullara göre işleyerek veya denetleyerek
+        //veri katmanının sağladığı metotları kullanarak veritabanına gönderen aynı şekilde veritabanından da bilgileri alarak gerekli
+        //süreçlerden geçirip presentation katmanına gönderen katman.
+        //Mahir AKSIN
         Task<AdminInfo> GetById(int id);
         Task<List<AdminInfo>> GetAll();
         Task CreateAsync(AdminInfo entity);

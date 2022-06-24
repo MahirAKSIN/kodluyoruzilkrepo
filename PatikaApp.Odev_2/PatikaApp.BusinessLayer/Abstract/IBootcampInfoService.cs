@@ -7,7 +7,11 @@ using System.Threading.Tasks;
 
 namespace PatikaApp.BusinessLayer.Abstract
 {
-   public  interface IBootcampInfoService
+
+    //Sunum katmanından gelen bilgileri gerekli koşullara göre işleyerek veya denetleyerek
+    //veri katmanının sağladığı metotları kullanarak veritabanına gönderen aynı şekilde veritabanından da bilgileri alarak gerekli
+    //süreçlerden geçirip presentation katmanına gönderen katman
+    public interface IBootcampInfoService
     {
         Task<BootcampInfo> GetById(int id);
         Task<List<BootcampInfo>> GetAll();

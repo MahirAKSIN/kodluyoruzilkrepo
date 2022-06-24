@@ -6387,27 +6387,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Web ve Mobil Prog\\.nuget\\packages\\": {}
+    "C:\\Users\\inspi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\inspi\\OneDrive\\Masaüstü\\PatikaApp.Odev_2\\PatikaApp\\PatikaApp.csproj",
       "projectName": "PatikaApp",
       "projectPath": "C:\\Users\\inspi\\OneDrive\\Masaüstü\\PatikaApp.Odev_2\\PatikaApp\\PatikaApp.csproj",
       "packagesPath": "C:\\Users\\inspi\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\inspi\\OneDrive\\Masaüstü\\PatikaApp.Odev_2\\PatikaApp\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\Web ve Mobil Prog\\Desktop\\kodluyoruzilkrepo-main\\PatikaApp.Odev_2\\PatikaApp\\PatikaApp.csproj",
-      "projectName": "PatikaApp",
-      "projectPath": "C:\\Users\\Web ve Mobil Prog\\Desktop\\kodluyoruzilkrepo-main\\PatikaApp.Odev_2\\PatikaApp\\PatikaApp.csproj",
-      "packagesPath": "C:\\Users\\Web ve Mobil Prog\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Web ve Mobil Prog\\Desktop\\kodluyoruzilkrepo-main\\PatikaApp.Odev_2\\PatikaApp\\obj\\",
->>>>>>> 08ff82ae35036c308dab168a753680acd1d96e67
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Web ve Mobil Prog\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\inspi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6421,13 +6418,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-<<<<<<< HEAD
             "C:\\Users\\inspi\\OneDrive\\Masaüstü\\PatikaApp.Odev_2\\PatikaApp.BusinessLayer\\PatikaApp.BusinessLayer.csproj": {
               "projectPath": "C:\\Users\\inspi\\OneDrive\\Masaüstü\\PatikaApp.Odev_2\\PatikaApp.BusinessLayer\\PatikaApp.BusinessLayer.csproj"
-=======
-            "C:\\Users\\Web ve Mobil Prog\\Desktop\\kodluyoruzilkrepo-main\\PatikaApp.Odev_2\\PatikaApp.BusinessLayer\\PatikaApp.BusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\Web ve Mobil Prog\\Desktop\\kodluyoruzilkrepo-main\\PatikaApp.Odev_2\\PatikaApp.BusinessLayer\\PatikaApp.BusinessLayer.csproj"
->>>>>>> 08ff82ae35036c308dab168a753680acd1d96e67
             }
           }
         }
@@ -6485,7 +6477,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
       }
     }
   }

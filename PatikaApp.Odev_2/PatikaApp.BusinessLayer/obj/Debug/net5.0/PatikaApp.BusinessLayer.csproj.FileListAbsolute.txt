@@ -32,7 +32,6 @@ C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\Patik
 C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp.BusinessLayer\obj\Debug\net5.0\PatikaApp.BusinessLayer.dll
 C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp.BusinessLayer\obj\Debug\net5.0\ref\PatikaApp.BusinessLayer.dll
 C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp.BusinessLayer\obj\Debug\net5.0\PatikaApp.BusinessLayer.pdb
-<<<<<<< HEAD
 C:\Users\inspi\OneDrive\Masaüstü\PatikaApp.Odev_2\PatikaApp.BusinessLayer\bin\Debug\net5.0\PatikaApp.BusinessLayer.deps.json
 C:\Users\inspi\OneDrive\Masaüstü\PatikaApp.Odev_2\PatikaApp.BusinessLayer\bin\Debug\net5.0\PatikaApp.BusinessLayer.dll
 C:\Users\inspi\OneDrive\Masaüstü\PatikaApp.Odev_2\PatikaApp.BusinessLayer\bin\Debug\net5.0\ref\PatikaApp.BusinessLayer.dll
@@ -50,5 +49,3 @@ C:\Users\inspi\OneDrive\Masaüstü\PatikaApp.Odev_2\PatikaApp.BusinessLayer\obj\
 C:\Users\inspi\OneDrive\Masaüstü\PatikaApp.Odev_2\PatikaApp.BusinessLayer\obj\Debug\net5.0\PatikaApp.BusinessLayer.dll
 C:\Users\inspi\OneDrive\Masaüstü\PatikaApp.Odev_2\PatikaApp.BusinessLayer\obj\Debug\net5.0\ref\PatikaApp.BusinessLayer.dll
 C:\Users\inspi\OneDrive\Masaüstü\PatikaApp.Odev_2\PatikaApp.BusinessLayer\obj\Debug\net5.0\PatikaApp.BusinessLayer.pdb
-=======
->>>>>>> 08ff82ae35036c308dab168a753680acd1d96e67

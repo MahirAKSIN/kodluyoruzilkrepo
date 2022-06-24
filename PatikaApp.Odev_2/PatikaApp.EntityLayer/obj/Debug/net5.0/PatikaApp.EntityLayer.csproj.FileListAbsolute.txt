@@ -22,7 +22,6 @@ C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\Patik
 C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp.EntityLayer\obj\Debug\net5.0\PatikaApp.EntityLayer.dll
 C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp.EntityLayer\obj\Debug\net5.0\ref\PatikaApp.EntityLayer.dll
 C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp.EntityLayer\obj\Debug\net5.0\PatikaApp.EntityLayer.pdb
-<<<<<<< HEAD
 C:\Users\inspi\OneDrive\Masaüstü\PatikaApp.Odev_2\PatikaApp.EntityLayer\bin\Debug\net5.0\PatikaApp.EntityLayer.deps.json
 C:\Users\inspi\OneDrive\Masaüstü\PatikaApp.Odev_2\PatikaApp.EntityLayer\bin\Debug\net5.0\PatikaApp.EntityLayer.dll
 C:\Users\inspi\OneDrive\Masaüstü\PatikaApp.Odev_2\PatikaApp.EntityLayer\bin\Debug\net5.0\ref\PatikaApp.EntityLayer.dll
@@ -35,5 +34,3 @@ C:\Users\inspi\OneDrive\Masaüstü\PatikaApp.Odev_2\PatikaApp.EntityLayer\obj\De
 C:\Users\inspi\OneDrive\Masaüstü\PatikaApp.Odev_2\PatikaApp.EntityLayer\obj\Debug\net5.0\PatikaApp.EntityLayer.dll
 C:\Users\inspi\OneDrive\Masaüstü\PatikaApp.Odev_2\PatikaApp.EntityLayer\obj\Debug\net5.0\ref\PatikaApp.EntityLayer.dll
 C:\Users\inspi\OneDrive\Masaüstü\PatikaApp.Odev_2\PatikaApp.EntityLayer\obj\Debug\net5.0\PatikaApp.EntityLayer.pdb
-=======
->>>>>>> 08ff82ae35036c308dab168a753680acd1d96e67

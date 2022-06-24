@@ -7,8 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = PatikaApp
-<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\inspi\OneDrive\Masaüstü\PatikaApp.Odev_2\PatikaApp\
-=======
-build_property.ProjectDir = C:\Users\Web ve Mobil Prog\Desktop\kodluyoruzilkrepo-main\PatikaApp.Odev_2\PatikaApp\
->>>>>>> 08ff82ae35036c308dab168a753680acd1d96e67
