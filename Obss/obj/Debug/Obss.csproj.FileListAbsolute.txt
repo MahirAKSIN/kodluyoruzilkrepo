@@ -1,7 +1,0 @@
-C:\Users\inspi\source\repos\Obss\bin\Debug\Obss.exe.config
-C:\Users\inspi\source\repos\Obss\bin\Debug\Obss.exe
-C:\Users\inspi\source\repos\Obss\bin\Debug\Obss.pdb
-C:\Users\inspi\source\repos\Obss\obj\Debug\Obss.csproj.AssemblyReference.cache
-C:\Users\inspi\source\repos\Obss\obj\Debug\Obss.csproj.CoreCompileInputs.cache
-C:\Users\inspi\source\repos\Obss\obj\Debug\Obss.exe
-C:\Users\inspi\source\repos\Obss\obj\Debug\Obss.pdb
