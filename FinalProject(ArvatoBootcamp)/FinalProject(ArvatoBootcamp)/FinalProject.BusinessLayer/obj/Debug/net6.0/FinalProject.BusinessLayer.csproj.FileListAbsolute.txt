@@ -1,0 +1,12 @@
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject.BusinessLayer\bin\Debug\net6.0\FinalProject.BusinessLayer.deps.json
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject.BusinessLayer\bin\Debug\net6.0\FinalProject.BusinessLayer.dll
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject.BusinessLayer\bin\Debug\net6.0\FinalProject.BusinessLayer.pdb
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject.BusinessLayer\obj\Debug\net6.0\FinalProject.BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject.BusinessLayer\obj\Debug\net6.0\FinalProject.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject.BusinessLayer\obj\Debug\net6.0\FinalProject.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject.BusinessLayer\obj\Debug\net6.0\FinalProject.BusinessLayer.AssemblyInfo.cs
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject.BusinessLayer\obj\Debug\net6.0\FinalProject.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject.BusinessLayer\obj\Debug\net6.0\FinalProject.BusinessLayer.dll
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject.BusinessLayer\obj\Debug\net6.0\refint\FinalProject.BusinessLayer.dll
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject.BusinessLayer\obj\Debug\net6.0\FinalProject.BusinessLayer.pdb
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject.BusinessLayer\obj\Debug\net6.0\ref\FinalProject.BusinessLayer.dll
