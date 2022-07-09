@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FinalProject.DataLayer.Concrete
+namespace FinalProject.DataLayer.Concrete.EntityFramework
 {
     public class EfCoreGenericRepository<TEntity> : IRepository<TEntity> where TEntity : class
 

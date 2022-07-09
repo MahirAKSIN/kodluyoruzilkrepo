@@ -10,3 +10,6 @@ C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBoo
 C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject.BusinessLayer\obj\Debug\net6.0\refint\FinalProject.BusinessLayer.dll
 C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject.BusinessLayer\obj\Debug\net6.0\FinalProject.BusinessLayer.pdb
 C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject.BusinessLayer\obj\Debug\net6.0\ref\FinalProject.BusinessLayer.dll
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject.BusinessLayer\bin\Debug\net6.0\FinalProject.DataLayer.dll
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject.BusinessLayer\bin\Debug\net6.0\FinalProject.DataLayer.pdb
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject.BusinessLayer\obj\Debug\net6.0\FinalProject.BusinessLayer.csproj.CopyComplete

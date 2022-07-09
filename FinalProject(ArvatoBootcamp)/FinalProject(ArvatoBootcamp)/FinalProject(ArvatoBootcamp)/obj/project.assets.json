@@ -702,6 +702,33 @@
             "rid": "win"
           }
         }
+      },
+      "FinalProject.BusinessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FinalProject.DataLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FinalProject.BusinessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinalProject.BusinessLayer.dll": {}
+        }
+      },
+      "FinalProject.DataLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FinalProject.DataLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinalProject.DataLayer.dll": {}
+        }
       }
     }
   },
@@ -2046,10 +2073,21 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "FinalProject.BusinessLayer/1.0.0": {
+      "type": "project",
+      "path": "../FinalProject.BusinessLayer/FinalProject.BusinessLayer.csproj",
+      "msbuildProject": "../FinalProject.BusinessLayer/FinalProject.BusinessLayer.csproj"
+    },
+    "FinalProject.DataLayer/1.0.0": {
+      "type": "project",
+      "path": "../FinalProject.DataLayer/FinalProject.DataLayer.csproj",
+      "msbuildProject": "../FinalProject.DataLayer/FinalProject.DataLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "FinalProject.BusinessLayer >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.0",
@@ -2088,7 +2126,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\inspi\\OneDrive\\Belgeler\\GitHub\\kodluyoruzilkrepo\\FinalProject(ArvatoBootcamp)\\FinalProject(ArvatoBootcamp)\\FinalProject.BusinessLayer\\FinalProject.BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\inspi\\OneDrive\\Belgeler\\GitHub\\kodluyoruzilkrepo\\FinalProject(ArvatoBootcamp)\\FinalProject(ArvatoBootcamp)\\FinalProject.BusinessLayer\\FinalProject.BusinessLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

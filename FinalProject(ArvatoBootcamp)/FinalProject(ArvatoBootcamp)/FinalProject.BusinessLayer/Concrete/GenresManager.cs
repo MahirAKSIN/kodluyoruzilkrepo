@@ -1,4 +1,5 @@
-﻿using FinalProject.DataLayer.Abstract;
+﻿using FinalProject.BusinessLayer.Abstarct;
+using FinalProject.DataLayer.Abstract;
 using FinalProject.DataLayer.ContextDb;
 using System;
 using System.Collections.Generic;
@@ -8,31 +9,46 @@ using System.Threading.Tasks;
 
 namespace FinalProject.BusinessLayer.Concrete
 {
-    internal class GenresManager : IGenresRepository
+    public class GenresManager : IGenresService
     {
-        public Task CreateAsync(Mytable entity)
+        IGenresRepository _genresRepository;
+
+        public GenresManager(IGenresRepository genresRepository)
         {
-            throw new NotImplementedException();
+            _genresRepository = genresRepository;
         }
 
-        public Task DeleteAsync(Mytable entity)
+        public async Task AddGenreAsync(Mytable entity)
         {
-            throw new NotImplementedException();
+            await _genresRepository.CreateAsync(entity);
         }
 
-        public Task<List<Mytable>> GetAll()
+        public async Task DeleteGenreAsync(Mytable entity)
         {
-            throw new NotImplementedException();
+            await _genresRepository.DeleteAsync(entity);
         }
 
-        public Task<Mytable> GetById(int id)
+        public async Task<List<Mytable>> GetAll()
         {
-            throw new NotImplementedException();
+            return await _genresRepository.GetAll();
+
         }
 
-        public Task UpdateAsync(Mytable entity)
+        public async Task<Mytable> GetByIdGenre(int id)
         {
-            throw new NotImplementedException();
+            return await _genresRepository.GetById(id);
+        }
+
+        public async Task<List<Mytable>> ListGenres()
+        {
+            return await _genresRepository.GetAll();
+        }
+
+        public async Task UpdateGenreAsync(Mytable entity)
+        {
+            await _genresRepository.UpdateAsync(entity);
+
+
         }
     }
 }
