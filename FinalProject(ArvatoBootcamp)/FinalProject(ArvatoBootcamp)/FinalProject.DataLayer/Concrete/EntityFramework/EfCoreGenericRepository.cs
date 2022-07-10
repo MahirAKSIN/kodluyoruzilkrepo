@@ -1,4 +1,6 @@
 ﻿using FinalProject.DataLayer.Abstract;
+using FinalProject.DataLayer.ContextDb;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,29 +12,48 @@ namespace FinalProject.DataLayer.Concrete.EntityFramework
     public class EfCoreGenericRepository<TEntity> : IRepository<TEntity> where TEntity : class
 
     {
-        public Task CreateAsync(TEntity entity)
+        public async Task CreateAsync(TEntity entity)
         {
-            throw new NotImplementedException();
+            using (var c=new MoviesInfoContext())
+            {
+                await c.Set<TEntity>().AddAsync(entity);
+                await c.SaveChangesAsync();
+            }
+
         }
 
-        public Task DeleteAsync(TEntity entity)
+        public async Task DeleteAsync(TEntity entity)
         {
-            throw new NotImplementedException();
+            using (var c = new MoviesInfoContext())
+            {
+                 c.Set<TEntity>().Remove(entity);
+                await c.SaveChangesAsync();
+            }
         }
 
-        public Task<List<TEntity>> GetAll()
+        public async Task<List<TEntity>> GetAll()
         {
-            throw new NotImplementedException();
+            using (var c =new MoviesInfoContext())
+            {
+                return await c.Set<TEntity>().ToListAsync();
+            }
         }
 
-        public Task<TEntity> GetById(int id)
+        public async Task<TEntity> GetById(int id)
         {
-            throw new NotImplementedException();
+            using (var c = new MoviesInfoContext())
+            {
+                return await c.Set<TEntity>().FindAsync(id);
+            }
         }
 
-        public Task UpdateAsync(TEntity entity)
+        public async Task UpdateAsync(TEntity entity)
         {
-            throw new NotImplementedException();
+            using (var c = new MoviesInfoContext())
+            {
+                  c.Set<TEntity>().Update(entity);
+                await c.SaveChangesAsync();
+            }
         }
     }
 }

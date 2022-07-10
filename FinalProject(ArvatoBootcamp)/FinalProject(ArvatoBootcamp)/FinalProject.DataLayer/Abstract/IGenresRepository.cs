@@ -9,5 +9,6 @@ namespace FinalProject.DataLayer.Abstract
 {
     public interface IGenresRepository:IRepository<Mytable>
     {
+        //Task<List<Mytable>> GetAllWithDetails();
     }
 }
