@@ -14,14 +14,14 @@ namespace FinalProject_ArvatoBootcamp_.Controllers
 
         [HttpGet]
 
-        public async Task<IActionResult> GetListGeners()
+        public async Task<IActionResult> GetListGenres()
         {
             var genres = await genresManager.GetAll();
             return Ok(genres);
         }
         [HttpGet("{id}")]
 
-        public async Task<IActionResult> GetListGener(int id)
+        public async Task<IActionResult> GetListGenre(int id)
         {
             var genres = await genresManager.GetByIdGenre(id);
             if (genres == null)
@@ -36,7 +36,7 @@ namespace FinalProject_ArvatoBootcamp_.Controllers
 
             await genresManager.AddGenreAsync(entity);
 
-            return CreatedAtAction(nameof(GetListGener),new {id=entity.Id},entity);
+            return CreatedAtAction(nameof(GetListGenre),new {id=entity.Id},entity);
         }
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteGenres(int id)
