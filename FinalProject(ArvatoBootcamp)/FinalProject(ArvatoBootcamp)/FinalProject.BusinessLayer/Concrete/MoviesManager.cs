@@ -28,9 +28,17 @@ namespace FinalProject.BusinessLayer.Concrete
             throw new NotImplementedException();
         }
 
-        public Task<Mytable> GetMovieDetail(int id)
+        public async Task<Mytable> GetMovieDetail(int id)
         {
-            throw new NotImplementedException();
+            return await _moviesRepository.GetById(id);
+
+        }
+
+        public Task<List<Mytable>> GetMovieList(long id)
+        {
+            var moviesList = _moviesRepository.GetMovieList(id);
+            return moviesList;  
+
         }
 
         public Task<List<Mytable>> GetMovieList(int id)
