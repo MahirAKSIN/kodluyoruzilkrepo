@@ -11,7 +11,7 @@ namespace FinalProject.DataLayer.Concrete.EntityFramework
 {
     public class EfCoreMoviesRepository : EfCoreGenericRepository<Mytable>, IMoviesRepository
     {
-        public async Task<List<Mytable>> GetMovieDetail()
+        public async Task<List<Mytable>> GetMovieById()
         {
             using (var c = new MoviesInfoContext())
             {

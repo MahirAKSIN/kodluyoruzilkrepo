@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace FinalProject.DataLayer.Abstract
 {
-    public interface IMoviesRepository:IRepository<Mytable>
+    public interface IMoviesRepository : IRepository<Mytable>
     {
-        Task<List<Mytable>> GetMovieDetail();
+        Task<List<Mytable>> GetMovieById();
         Task<List<Mytable>> GetMovieList(long id);
         Task<List<Mytable>> GetMovieListRate(long id);
         Task<List<Mytable>> GetMovieListDate(long id);
-         Task<List<Mytable>> Search(string title);
+        Task<List<Mytable>> Search(string title);
 
 
     }

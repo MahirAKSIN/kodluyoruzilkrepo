@@ -18,17 +18,18 @@ namespace FinalProject.BusinessLayer.Concrete
             _moviesRepository = moviesRepository;
         }
 
-        public Task AddMoviesAsync(Mytable entity)
+        public async Task AddMoviesAsync(Mytable entity)
         {
-            throw new NotImplementedException();
+            await _moviesRepository.CreateAsync(entity);
         }
 
-        public Task DeleteMovieAsync(Mytable entity)
+        public async Task DeleteMovieAsync(Mytable entity)
         {
-            throw new NotImplementedException();
+
+            await _moviesRepository.DeleteAsync(entity);
         }
 
-        public async Task<Mytable> GetMovieDetail(int id)
+        public async Task<Mytable> GetMovieById(int id)
         {
             return await _moviesRepository.GetById(id);
 
@@ -37,7 +38,7 @@ namespace FinalProject.BusinessLayer.Concrete
         public Task<List<Mytable>> GetMovieList(long id)
         {
             var moviesList = _moviesRepository.GetMovieList(id);
-            return moviesList;  
+            return moviesList;
 
         }
 
@@ -46,14 +47,15 @@ namespace FinalProject.BusinessLayer.Concrete
             throw new NotImplementedException();
         }
 
-        public Task<List<Mytable>> Search(int id)
+        public Task<List<Mytable>> Search(string title)
         {
-            throw new NotImplementedException();
+            var search = _moviesRepository.Search(title);
+            return search;
         }
 
-        public Task UpdateMovieAsync(Mytable entity)
+        public async Task UpdateMovieAsync( Mytable entity)
         {
-            throw new NotImplementedException();
+            await _moviesRepository.UpdateAsync(entity);
         }
     }
 }
