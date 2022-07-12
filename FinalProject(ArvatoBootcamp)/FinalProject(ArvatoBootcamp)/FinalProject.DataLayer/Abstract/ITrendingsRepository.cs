@@ -9,5 +9,12 @@ namespace FinalProject.DataLayer.Abstract
 {
     public interface ITrendingsRepository:IRepository<Mytable>
     {
-    }
+
+        Task<List<Mytable>> ListMostViewedMovies(int voteCount);
+        Task<List<Mytable>> ListTopRatedMovies(int voteAverage);
+        
+
+
+
+        }
 }
