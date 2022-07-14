@@ -14,11 +14,15 @@ namespace FinalProject_ArvatoBootcamp_.Controllers
         GenresManager genresManager = new GenresManager(new EfCoreGenresRepository());
         IRedisHelper redisHelper;
 
+
         public GenresController(IRedisHelper redisHelper)
         {
 
             this.redisHelper = redisHelper;
+
         }
+
+
 
         [HttpGet]
 
@@ -48,8 +52,8 @@ namespace FinalProject_ArvatoBootcamp_.Controllers
             await genresManager.AddGenreAsync(entity);
 
 
-             //Redis cacheleme methodu imzası
-            await redisHelper.SetKeyAsync("lastgenresid",entity.Id.ToString());
+            //Redis cacheleme methodu imzası
+            await redisHelper.SetKeyAsync("lastgenresid", entity.Id.ToString());
 
             return CreatedAtAction(nameof(GetListGenre), new { id = entity.Id }, entity);
         }

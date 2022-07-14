@@ -1,6 +1,9 @@
 using FinalProject.DataLayer.Abstract;
 using FinalProject.DataLayer.Concrete.EntityFramework;
 using FinalProject.DataLayer.Redis;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +16,34 @@ builder.Services.AddSwaggerGen();
 
 //redis  Implement service
 builder.Services.AddSingleton<IRedisHelper, RedisHelper>();
+var key = Encoding.ASCII.GetBytes(builder.Configuration["Application:JWTSecret"]);
+
+
+builder.Services.AddAuthentication(x=> {
+
+    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    x.DefaultChallengeScheme= JwtBearerDefaults.AuthenticationScheme;
+
+}).AddJwtBearer(x => {
+
+    x.Audience = "Mahir";
+    x.RequireHttpsMetadata = false ;
+    x.SaveToken = true;
+    x.ClaimsIssuer = "Mahir.Issuer.Developnent";
+    x.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+    {
+
+        IssuerSigningKey = new SymmetricSecurityKey(key),
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidateIssuer = false,
+        ValidateAudience = false
+
+
+    };
+
+});
+
 
 var app = builder.Build();
 
@@ -41,7 +72,7 @@ services.AddControllersWithViews();//Projemizin MVC yapýsýnda olmasýný saðlar.
 
 app.UseRouting();
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

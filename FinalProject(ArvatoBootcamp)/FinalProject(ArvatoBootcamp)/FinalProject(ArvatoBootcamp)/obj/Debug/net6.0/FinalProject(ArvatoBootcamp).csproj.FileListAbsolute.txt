@@ -68,3 +68,5 @@ C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBoo
 C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
 C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\bin\Debug\net6.0\FinalProject.EntityLayer.dll
 C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\bin\Debug\net6.0\FinalProject.EntityLayer.pdb
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\bin\Debug\net6.0\Microsoft.Web.Services3.dll
