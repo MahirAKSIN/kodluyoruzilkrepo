@@ -12,3 +12,6 @@ C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBoo
 C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject.DataLayer\obj\Debug\net6.0\FinalProject.DataLayer.pdb
 C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject.DataLayer\obj\Debug\net6.0\FinalProject.DataLayer.genruntimeconfig.cache
 C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject.DataLayer\obj\Debug\net6.0\ref\FinalProject.DataLayer.dll
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject.DataLayer\bin\Debug\net6.0\FinalProject.EntityLayer.dll
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject.DataLayer\bin\Debug\net6.0\FinalProject.EntityLayer.pdb
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject.DataLayer\obj\Debug\net6.0\FinalProject.DataLayer.csproj.CopyComplete

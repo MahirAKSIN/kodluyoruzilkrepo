@@ -1,5 +1,6 @@
 using FinalProject.DataLayer.Abstract;
 using FinalProject.DataLayer.Concrete.EntityFramework;
+using FinalProject.DataLayer.Redis;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+//redis  Implement service
+builder.Services.AddSingleton<IRedisHelper, RedisHelper>();
 
 var app = builder.Build();
 
@@ -25,6 +29,9 @@ if (app.Environment.IsDevelopment())
 //IWebHostEnvironment environment = app1.Environment;
 
 IServiceCollection services = new ServiceCollection();
+
+
+ 
 //Proje boyunca Service çaðrýldýðýnda,Manager'i kullan.
 
 services.AddSingleton<IGenresRepository, EfCoreGenresRepository>();

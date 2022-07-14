@@ -1,6 +1,7 @@
 ﻿using FinalProject.BusinessLayer.Concrete;
 using FinalProject.DataLayer.Concrete.EntityFramework;
 using FinalProject.DataLayer.ContextDb;
+using FinalProject.DataLayer.Redis;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,6 +12,13 @@ namespace FinalProject_ArvatoBootcamp_.Controllers
     public class GenresController : ControllerBase
     {
         GenresManager genresManager = new GenresManager(new EfCoreGenresRepository());
+        IRedisHelper redisHelper;
+
+        public GenresController(IRedisHelper redisHelper)
+        {
+
+            this.redisHelper = redisHelper;
+        }
 
         [HttpGet]
 
@@ -28,6 +36,9 @@ namespace FinalProject_ArvatoBootcamp_.Controllers
             {
                 return NotFound();
             }
+
+            var lastgenresid = await redisHelper.GetKeyAsync("lastgenresid");
+
             return Ok(genres);
         }
         [HttpPost]
@@ -36,7 +47,11 @@ namespace FinalProject_ArvatoBootcamp_.Controllers
 
             await genresManager.AddGenreAsync(entity);
 
-            return CreatedAtAction(nameof(GetListGenre),new {id=entity.Id},entity);
+
+             //Redis cacheleme methodu imzası
+            await redisHelper.SetKeyAsync("lastgenresid",entity.Id.ToString());
+
+            return CreatedAtAction(nameof(GetListGenre), new { id = entity.Id }, entity);
         }
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteGenres(int id)

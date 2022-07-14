@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using FinalProject.EntityLayer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
@@ -17,6 +18,7 @@ namespace FinalProject.DataLayer.ContextDb
         }
 
         public virtual DbSet<Mytable> Mytables { get; set; } = null!;
+        public virtual DbSet<LoginEntity> Logins { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
