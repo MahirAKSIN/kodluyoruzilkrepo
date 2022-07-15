@@ -1,7 +1,7 @@
 
 Arvato Bootcamp Final Ödevi
 
-<![alt](https://)>
+![Final.PNG](https://)
 
 # kodluyoruzilkrepo
 ```
