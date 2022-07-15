@@ -1,7 +1,7 @@
 
 Arvato Bootcamp Final Ödevi
 
-![Final.PNG](https://https://kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\img\Final.PNG)
+![](https://https://https://github.com/MahirAKSIN/kodluyoruzilkrepo/blob/main/FinalProject(ArvatoBootcamp)/FinalProject(ArvatoBootcamp)/FinalProject(ArvatoBootcamp)/img/Final.PNG)
 
 # kodluyoruzilkrepo
 ```
