@@ -23,32 +23,25 @@ var key = Encoding.ASCII.GetBytes(builder.Configuration["Application:JWTSecret"]
 
 builder.Services.AddAuthentication(x =>
 {
-
     x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
     x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 
 }).AddJwtBearer(x =>
 {
-
     x.Audience = "Mahir";
     x.RequireHttpsMetadata = false;
     x.SaveToken = true;
     x.ClaimsIssuer = "Mahir.Issuer.Developnent";
     x.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
     {
-
         IssuerSigningKey = new SymmetricSecurityKey(key),
         ValidateLifetime = true,
         ValidateIssuerSigningKey = true,
         ValidateIssuer = false,
         ValidateAudience = false
-
-
     };
 
 });
-
-
 
 var app = builder.Build();
 
@@ -63,7 +56,6 @@ if (app.Environment.IsDevelopment())
 //var app1 = builder.Build();
 //IConfiguration configuration = app1.Configuration;
 //IWebHostEnvironment environment = app1.Environment;
-
 
 
 //
@@ -97,7 +89,8 @@ app.MapControllers();
 
 
 
-//Endpoint: istemciler(clients) ve host'lar arasýndaki iletiþimi þaðlamak için kullanýlan bir arayüzdür. Her endpoint'in kendi adresi vardýr ve bu adresin benzersiz olmasý için servisin kendi ana adresine eklenmektedir.7 Þub 2013
+//Endpoint: istemciler(clients) ve host'lar arasýndaki iletiþimi þaðlamak için kullanýlan bir arayüzdür.
+//Her endpoint'in kendi adresi vardýr ve bu adresin benzersiz olmasý için servisin kendi ana adresine eklenmektedir.
 
 app.UseEndpoints(endpoints =>
 {
