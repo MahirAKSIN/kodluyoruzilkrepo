@@ -1,7 +1,7 @@
 
 Arvato Bootcamp Final Ödevi
 
-![](https://https://https://github.com/MahirAKSIN/kodluyoruzilkrepo/blob/main/FinalProject(ArvatoBootcamp)/FinalProject(ArvatoBootcamp)/FinalProject(ArvatoBootcamp)/img/Final.PNG)
+!["Mahir"](https://https://https://github.com/MahirAKSIN/kodluyoruzilkrepo/blob/main/FinalProject(ArvatoBootcamp)/FinalProject(ArvatoBootcamp)/FinalProject(ArvatoBootcamp)/img/Final.PNG)
 
 # kodluyoruzilkrepo
 ```
