@@ -1,6 +1,17 @@
 
 Arvato Bootcamp Final Ödevi
+
+![odev](https://user-images.githubusercontent.com/98876295/179234038-af260370-5f6c-410a-8d5c-09516ea97e53.PNG)
+
+![odevvv](https://user-images.githubusercontent.com/98876295/179234122-bb3485d2-4a2a-4656-9b18-42525397f364.PNG)
+
+
+
+
 ![Final](https://user-images.githubusercontent.com/98876295/179232543-f5142946-168d-4810-8efe-fa98ec223597.PNG)
+
+
+
 
 
 # kodluyoruzilkrepo
