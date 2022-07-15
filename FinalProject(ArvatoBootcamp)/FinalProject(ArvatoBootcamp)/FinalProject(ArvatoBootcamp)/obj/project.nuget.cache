@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Xly1+YH/4ymPZKphQ3KBa6Xl2I5l/asTR1t/Pp1qvj/a3i7qYDNLw6O6KmugSkDjJniPloXDOib0rieWhXk42Q==",
+  "dgSpecHash": "LX359VWy8nEFzLGfladHr0YVtkhyPAaBxQGWIohmINP28G3biLSciNodtA6MpL5M0qPPUfyyZkzRKfjQ2YXtcQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\inspi\\OneDrive\\Belgeler\\GitHub\\kodluyoruzilkrepo\\FinalProject(ArvatoBootcamp)\\FinalProject(ArvatoBootcamp)\\FinalProject(ArvatoBootcamp)\\FinalProject(ArvatoBootcamp).csproj",
   "expectedPackageFiles": [
@@ -37,6 +37,8 @@
     "C:\\Users\\inspi\\.nuget\\packages\\microsoft.web.services3\\3.0.0\\microsoft.web.services3.3.0.0.nupkg.sha512",
     "C:\\Users\\inspi\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\inspi\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\inspi\\.nuget\\packages\\npgsql\\6.0.0\\npgsql.6.0.0.nupkg.sha512",
+    "C:\\Users\\inspi\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.0\\npgsql.entityframeworkcore.postgresql.6.0.0.nupkg.sha512",
     "C:\\Users\\inspi\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.2\\pipelines.sockets.unofficial.2.2.2.nupkg.sha512",
     "C:\\Users\\inspi\\.nuget\\packages\\stackexchange.redis\\2.6.48\\stackexchange.redis.2.6.48.nupkg.sha512",
     "C:\\Users\\inspi\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",

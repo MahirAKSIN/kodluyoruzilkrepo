@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kLfrXkiIoQaWvm5laVLOaBOld+TYhCRfuRFfNQa0XhV6HHEbC/Yn26m5aIPY3FmpPZWUzqqPXN14a1kDAJLiig==",
+  "dgSpecHash": "MnNvcO4ENb8DxbAPIPFOMTDYUPxHfPROszg5vNpTfRnoCT06UQe0xpjwJ3bF0M8qGCtCorAr3devQnZZjv6t3A==",
   "success": true,
   "projectFilePath": "C:\\Users\\inspi\\OneDrive\\Belgeler\\GitHub\\kodluyoruzilkrepo\\FinalProject(ArvatoBootcamp)\\FinalProject(ArvatoBootcamp)\\FinalProject.BusinessLayer\\FinalProject.BusinessLayer.csproj",
   "expectedPackageFiles": [
@@ -30,6 +30,8 @@
     "C:\\Users\\inspi\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\inspi\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\inspi\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\inspi\\.nuget\\packages\\npgsql\\6.0.0\\npgsql.6.0.0.nupkg.sha512",
+    "C:\\Users\\inspi\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.0\\npgsql.entityframeworkcore.postgresql.6.0.0.nupkg.sha512",
     "C:\\Users\\inspi\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.2\\pipelines.sockets.unofficial.2.2.2.nupkg.sha512",
     "C:\\Users\\inspi\\.nuget\\packages\\stackexchange.redis\\2.6.48\\stackexchange.redis.2.6.48.nupkg.sha512",
     "C:\\Users\\inspi\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
