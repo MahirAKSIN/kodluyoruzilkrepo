@@ -1,7 +1,7 @@
 
 Arvato Bootcamp Final Ödevi
 
-![Final.PNG](https://)
+![Final.PNG](https://https://github.com/MahirAKSIN/kodluyoruzilkrepo/blob/main/img/Final.PNG)
 
 # kodluyoruzilkrepo
 ```
