@@ -19,15 +19,19 @@ builder.Services.AddSingleton<IRedisHelper, RedisHelper>();
 var key = Encoding.ASCII.GetBytes(builder.Configuration["Application:JWTSecret"]);
 
 
-builder.Services.AddAuthentication(x=> {
+//JWT kimlik doðrulama servisi caðrýldý..
+
+builder.Services.AddAuthentication(x =>
+{
 
     x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    x.DefaultChallengeScheme= JwtBearerDefaults.AuthenticationScheme;
+    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 
-}).AddJwtBearer(x => {
+}).AddJwtBearer(x =>
+{
 
     x.Audience = "Mahir";
-    x.RequireHttpsMetadata = false ;
+    x.RequireHttpsMetadata = false;
     x.SaveToken = true;
     x.ClaimsIssuer = "Mahir.Issuer.Developnent";
     x.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
@@ -45,6 +49,7 @@ builder.Services.AddAuthentication(x=> {
 });
 
 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -59,10 +64,22 @@ if (app.Environment.IsDevelopment())
 //IConfiguration configuration = app1.Configuration;
 //IWebHostEnvironment environment = app1.Environment;
 
+
+
+//
+/// <summary>
+/// asp.net core ile bütünleþik olarak gelen dependency injection mekanizmasýnda üç farklý lifetime seçeneði mevcuttur.
+/// 
+/// singleton: uygulama ilk ayaða kalktýðý anda, servisin tek bir instance’ý oluþturularak memory’de tutulur ve daha sonrasýnda her servis çaðrýsýnda bu instance gönderilir.
+/// 
+/// scoped : her request için tek bir instance yaratýlmasýný saðlayan lifetime seçeneðidir. request cycle’ý tamamlanana kadar gerçekleþen servis çaðrýlarýnda daha önce oluþturulan instance gönderilir. daha sonra yeni bir request baþladýðýnda farklý bir instance oluþturulur.
+/// transient : her servis çaðrýsýnda yeni bir instance oluþturulur. baðlayýcýlýðý en az olan lifetime seçeneðidir.
+
+/// 
+/// </summary>
+
 IServiceCollection services = new ServiceCollection();
 
-
- 
 //Proje boyunca Service çaðrýldýðýnda,Manager'i kullan.
 
 services.AddSingleton<IGenresRepository, EfCoreGenresRepository>();
@@ -76,6 +93,11 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+
+
+
+//Endpoint: istemciler(clients) ve host'lar arasýndaki iletiþimi þaðlamak için kullanýlan bir arayüzdür. Her endpoint'in kendi adresi vardýr ve bu adresin benzersiz olmasý için servisin kendi ana adresine eklenmektedir.7 Þub 2013
 
 app.UseEndpoints(endpoints =>
 {

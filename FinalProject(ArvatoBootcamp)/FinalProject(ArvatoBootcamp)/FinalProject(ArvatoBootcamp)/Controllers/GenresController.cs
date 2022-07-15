@@ -7,6 +7,18 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FinalProject_ArvatoBootcamp_.Controllers
 {
+
+
+    //
+    /// <summary>
+    /// Bu controllerda Genres için yapılmıştır.
+    /// Genres yapacağı butun işlemlerin tutulduğu yerdir
+    /// Genres CRUD işlemleri ve diğer tabloların ilişkisinin düzenlendiği controllerdır
+    /// HttpGEt,HttpPost ve projenin ana damarları olan APInin ayağa kalktığı yerdir
+    /// </summary>
+
+
+
     [Route("api/[controller]")]
     [ApiController]
     public class GenresController : ControllerBase
@@ -14,15 +26,10 @@ namespace FinalProject_ArvatoBootcamp_.Controllers
         GenresManager genresManager = new GenresManager(new EfCoreGenresRepository());
         IRedisHelper redisHelper;
 
-
         public GenresController(IRedisHelper redisHelper)
         {
-
             this.redisHelper = redisHelper;
-
         }
-
-
 
         [HttpGet]
 

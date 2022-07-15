@@ -11,7 +11,10 @@ namespace FinalProject.DataLayer.Concrete.EntityFramework
 {
     public class EfCoreTrendingsRepository : EfCoreGenericRepository<Mytable>, ITrendingsRepository
     {
-        
+
+        //EfCoreTrendingsRepository class EfCoreREpository tarafından imzası atılan methodları implement edildi
+        //Eğer IRepository ve GenericRepositoryde olmayan özel methodlar varsa EfCoreTrendingsRepository Interface yazıldığı için 
+        //onuda implement ettik
         public Task<List<Mytable>> ListMostViewedMovies(int voteCount)
         {
             using (var c = new MoviesInfoContext())

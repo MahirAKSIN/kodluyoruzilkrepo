@@ -70,3 +70,5 @@ C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBoo
 C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\bin\Debug\net6.0\FinalProject.EntityLayer.pdb
 C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\bin\Debug\net6.0\Microsoft.Web.Services3.dll
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\bin\Debug\net6.0\Npgsql.dll
+C:\Users\inspi\OneDrive\Belgeler\GitHub\kodluyoruzilkrepo\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\FinalProject(ArvatoBootcamp)\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

@@ -8,6 +8,22 @@ namespace FinalProject.DataLayer.ContextDb
 {
     public partial class MoviesInfoContext : DbContext
     {
+
+
+        /// <summary>
+        /// DbContext bir classtır ve Entity Framework'un olmazsa olmazıdır. DBContet veritabanımızla uygulamamız arasında 
+        /// sorgulama, güncelleme, silme gibi işlemleri yapmamız için olanak sağlar. 
+        /// Yani veritabanı içinde yer alan verilerimizle alakalı olarak her türlü süreçte iletişimimizi sağlayan bir classtır.
+        /// 
+        /// 
+        /// Scaffold-DbContext komutlarıyla nugget console da Databasefirst ile MoviesInfoContext'i oluşturuldu.
+        /// Jwt için oluşturulan Login modeli için add-migration ile MoviesInfoContext eklendi.
+        /// 
+        /// 
+        /// 
+        /// </summary>
+
+
         public MoviesInfoContext()
         {
         }

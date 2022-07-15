@@ -10,6 +10,11 @@ namespace FinalProject.DataLayer.Abstract
 {
     public interface IMoviesRepository : IRepository<Mytable>
     {
+        /// <summary>
+        /// Bu interfacede  IMoviesRepository özel methodlar yazılabilir.
+        /// Diğer methodlar solid kurallarını göz önüne alarak IRepository imzasız bir şekilde yazıldı.
+        /// Imzasız methodlar IGenericRepositoryde imzalanacaktır
+        /// </summary>
         Task<List<Mytable>> GetMovieById();
         Task<List<Mytable>> GetMovieList(long id);
         Task<List<Mytable>> GetMovieListRate(long id);

@@ -9,6 +9,9 @@ namespace FinalProject.BusinessLayer.Abstarct
 {
     public interface IMytableService
     {
+        //Sunum katmanından gelen bilgileri gerekli koşullara göre işleyerek veya denetleyerek
+        //veri katmanının sağladığı metotları kullanarak veritabanına gönderen aynı şekilde veritabanından da bilgileri alarak gerekli
+        //süreçlerden geçirip presentation katmanına gönderen katman
         Task<Mytable> GetById(int id);
         Task<List<Mytable>> GetAll();
         Task CreateAsync(Mytable entity);

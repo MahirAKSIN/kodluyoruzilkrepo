@@ -9,6 +9,11 @@ using System.Threading.Tasks;
 
 namespace FinalProject.BusinessLayer.Concrete
 {
+    /// <summary>
+    /// Bu classta ITrendingsService'i implement yaparak imzasız olana 
+    /// methodları içine linq sorguları ile imzalanır. 
+    /// 
+    /// </summary>
     public class TrendingsManager : ITrendingsService
     {
         ITrendingsRepository _trendingsRepository;

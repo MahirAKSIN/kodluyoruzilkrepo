@@ -5,6 +5,12 @@ namespace FinalProject.DataLayer.ContextDb
 {
     public partial class Mytable
     {
+
+
+
+        /// <summary>
+        /// DatabaseFirst ile oluşan entity classımız. 
+        /// </summary>
         public string Adult { get; set; } = null!;
         public string? BelongsToCollection { get; set; }
         public string Budget { get; set; } = null!;

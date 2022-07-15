@@ -10,6 +10,12 @@ namespace FinalProject.BusinessLayer.Concrete
 {
     public class MytableManager : IMytableService
     {
+
+        /// <summary>
+        /// Bu classta IMytableService'i implement yaparak imzasız olana 
+        /// methodları içine linq sorguları ile imzalanır. 
+        /// 
+        /// </summary>
         public Task CreateAsync(Mytable entity)
         {
             throw new NotImplementedException();

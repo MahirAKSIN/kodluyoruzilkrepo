@@ -7,6 +7,20 @@ using System.Threading.Tasks;
 
 namespace FinalProject.DataLayer.Redis
 {
+
+
+    /// <summary>
+    /// 
+    /// Redis, verileri disklerde (HDD veya SSD) tutan veri tabanlarının akside bellek (RAM)
+    /// üzerinde tutar bu sayede disklere erişim ihtiyacını ortadan kaldırarak gecikmeleri,
+    /// I/O bağlantılarını önler ve daha az CPU kullanan basit algoritmalar ile verilere erişir
+    ///  
+    /// BusinessLayer mantığı ile IRedisHelperdeki imzasız methodları  
+    /// RedisHelper da imzaladık
+    /// Redisin database ile ilişkisi burada kuruldu.
+    /// datalar onbellekte tutulacağı için Redis tercih ettik.
+    /// 
+    /// </summary>
     public interface IRedisHelper
     {
         Task<bool> SetKeyAsync(string Key, string Value);

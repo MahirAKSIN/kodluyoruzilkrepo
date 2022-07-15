@@ -11,8 +11,22 @@ using System.Text;
 
 namespace FinalProject_ArvatoBootcamp_.Controllers
 {
+  
+
+
     [Route("api/[controller]")]
     [ApiController]
+
+    //
+    /// <summary>
+    /// Bu controllerda Login için yapılmıştır.
+    ///  Jwt işlemleri ve validate,kimlik doğrulama yapılan controllerdır
+    /// Bu controllerda sadece Login için dataları List halinde getirme işlemi yapılacaktır
+    /// Dİğer Crud işlemleri genres tarafından yapılacaktır
+    /// 
+    /// 
+    /// </summary>
+    /// 
     public class LoginController : ControllerBase
     {
         GenresManager genresManager = new GenresManager(new EfCoreGenresRepository());
@@ -54,7 +68,7 @@ namespace FinalProject_ArvatoBootcamp_.Controllers
                     new Claim(ClaimTypes.Name, userName),
                 }),
                 Expires = DateTime.UtcNow.AddMinutes(10),
-                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key),SecurityAlgorithms.HmacSha256Signature),
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
 
 
 

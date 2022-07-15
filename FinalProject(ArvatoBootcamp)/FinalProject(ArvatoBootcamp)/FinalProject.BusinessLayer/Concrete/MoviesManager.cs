@@ -9,6 +9,12 @@ using System.Threading.Tasks;
 
 namespace FinalProject.BusinessLayer.Concrete
 {
+
+    /// <summary>
+    /// Bu classta IMoviesService'i implement yaparak imzasız olana 
+    /// methodları içine linq sorguları ile imzalanır. 
+    /// 
+    /// </summary>
     public class MoviesManager : IMoviesService
     {
         IMoviesRepository _moviesRepository;

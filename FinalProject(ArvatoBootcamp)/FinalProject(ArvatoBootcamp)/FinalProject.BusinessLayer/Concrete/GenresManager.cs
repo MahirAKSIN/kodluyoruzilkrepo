@@ -9,6 +9,13 @@ using System.Threading.Tasks;
 
 namespace FinalProject.BusinessLayer.Concrete
 {
+    /// <summary>
+    /// Bu classta IGenresService'i implement yaparak imzasız olana 
+    /// methodları içine linq sorguları ile imzalanır. 
+    /// 
+    /// </summary>
+
+
     public class GenresManager : IGenresService
     {
         IGenresRepository _genresRepository;

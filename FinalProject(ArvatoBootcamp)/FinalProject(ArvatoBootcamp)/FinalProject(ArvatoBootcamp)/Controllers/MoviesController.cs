@@ -6,6 +6,19 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FinalProject_ArvatoBootcamp_.Controllers
 {
+
+
+    //
+    /// <summary>
+    /// Bu controllerda Movies için yapılmıştır.
+    /// Bu controllerda sadece Movies için dataları List halinde getirme işlemi yapılacaktır
+    /// Diğer Crud işlemleri bu controller tarafından da yapılacaktır
+    /// 
+    /// 
+    /// </summary>
+
+
+
     [Route("api/[controller]")]
     [ApiController]
     public class MoviesController : ControllerBase

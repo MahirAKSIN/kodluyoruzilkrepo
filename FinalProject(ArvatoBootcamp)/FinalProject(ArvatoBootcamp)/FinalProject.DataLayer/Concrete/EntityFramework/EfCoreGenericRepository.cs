@@ -9,6 +9,12 @@ using System.Threading.Tasks;
 
 namespace FinalProject.DataLayer.Concrete.EntityFramework
 {
+
+    //GenericRepository classı IRepositorydeki bos olusturulan methodları imzasını atıldı.
+    //temel sınıf kısıtlaması, derleyiciye yalnızca bu türden veya bu türden türetilen nesnelerin tür bağımsız değişkenleri olarak kullanılacağını söyler
+    //bunun için 'where TEntity : class' kullandık
+
+
     public class EfCoreGenericRepository<TEntity> : IRepository<TEntity> where TEntity : class
 
     {

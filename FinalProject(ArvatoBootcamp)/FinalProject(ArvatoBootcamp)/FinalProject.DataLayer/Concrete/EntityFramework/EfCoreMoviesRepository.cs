@@ -9,6 +9,11 @@ using System.Threading.Tasks;
 
 namespace FinalProject.DataLayer.Concrete.EntityFramework
 {
+
+
+    //EfCoreMoviesRepository class EfCoreREpository tarafından imzası atılan methodları implement edildi
+    //Eğer IRepository ve GenericRepositoryde olmayan özel methodlar varsa EfCoreMoviesRepository Interface yazıldığı için 
+    //onuda implement ettik
     public class EfCoreMoviesRepository : EfCoreGenericRepository<Mytable>, IMoviesRepository
     {
         public async Task<List<Mytable>> GetMovieById()

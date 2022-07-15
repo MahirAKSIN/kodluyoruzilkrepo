@@ -11,13 +11,19 @@ namespace FinalProject.DataLayer.Concrete.EntityFramework
 {
     public class EfCoreGenresRepository : EfCoreGenericRepository<Mytable>, IGenresRepository
     {
-    //    public Task<List<Mytable>> GetAllWithDetails()
-    //    {
-    //        using (var c = new MoviesInfoContext())
-    //        {
-    //          return await c.Mytables.ToArrayAsync();
-                
-    //        }
-       // }
+
+
+        //EfCoreGenresRepository class EfCoreREpository tarafından imzası atılan methodları implement edildi
+        //Eğer IRepository ve GenericRepositoryde olmayan özel methodlar varsa EfCoreGenresRepository Interface yazıldığı için 
+        //onuda implement ettik
+
+        //    public Task<List<Mytable>> GetAllWithDetails()
+        //    {
+        //        using (var c = new MoviesInfoContext())
+        //        {
+        //          return await c.Mytables.ToArrayAsync();
+
+        //        }
+        // }
     }
 }

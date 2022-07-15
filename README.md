@@ -1,4 +1,8 @@
 
+Arvato Bootcamp Final Ödevi
+
+<![alt](https://)>
+
 # kodluyoruzilkrepo
 ```
 Bu repo  .NET CORE kapsamında açtığım ilk repo. İçerisinde bir adet README  dosyası, bir adet de index.html barındırıyor.

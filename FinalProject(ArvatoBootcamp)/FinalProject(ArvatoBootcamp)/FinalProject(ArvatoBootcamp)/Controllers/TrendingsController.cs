@@ -5,6 +5,18 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FinalProject_ArvatoBootcamp_.Controllers
 {
+    //
+    /// <summary>
+    /// Bu controllerda Trendings için yapılmıştır.
+    /// Bu controllerda sadece Trendings için dataları List halinde getirme işlemi yapılacaktır
+    /// Diğer Crud işlemleri bu controllerda yapılmayacak
+    /// 
+    /// 
+    /// </summary>
+
+
+
+
     [Route("api/[controller]")]
     [ApiController]
     public class TrendingsController : ControllerBase
